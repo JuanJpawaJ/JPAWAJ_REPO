@@ -17,6 +17,7 @@
     date_default_timezone_set("America/Lima");
     setlocale(LC_ALL, "sp");
 
+    echo LC_ALL;
     $bxproducto = $_GET['bxproducto'];
     // ********  ADICIONA, MODIFICA, ELIMINA REGISTROS 
     $viewmodi = $_GET['viewmodi'];
@@ -81,19 +82,12 @@
 
     <!--  SYSCOMPUTER AREA 02 "COMUNICATE CON NOSOTROS  -->
 
-    <a href="siga_jpawaj/a_lisgeneral.php?xgl=S"><img src="imagenes/bsys_lista.jpg" width="180" height="160"
-            style="border:0;" onmouseover="this.style.border='solid  2px  #0a3d89';" onmouseout="this.style.border=0;"
-            border="0"></a>
+    <a href="siga_jpawaj/a_lisgeneral.php?xgl=S"><img src="imagenes/bsys_lista.jpg" width="180" height="160" style="border:0;" onmouseover="this.style.border='solid  2px  #0a3d89';" onmouseout="this.style.border=0;" border="0"></a>
     <a href="siga_jpawaj/a_lisimagenes.php?xgl=S">
         <img src="imagenes/bsys_oferta.jpg" width="180" height="160" style="border:0;"onmouseover="this.style.border='solid  2px  #0a3d89';" onmouseout="this.style.border=0;" border="0">
     </a>
    <img src="imagenes/bsys_masv.jpg" width="180" height="160" style="border:0;" onmouseover="this.style.border='solid  2px  #0a3d89';"
         onmouseout="this.style.border=0;" border="0"></a>
-    <form class="formulario_nohay" method="post" action="insert_mail.php">
-            <input type="text" id="xcelular" name="xcelular" placeholder="N° Celular">
-            <input type="hidden" name="xarea" value="Syscomputer: ">
-            <input type="submit" value="Enviar">
-    </form>
 
     <? $result = mysqli_query($connec, "select * from a_items where view03_it='S' AND grupolista_it like '%M%' order by producto_it");
     $total = mysqli_num_rows($result);
