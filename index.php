@@ -164,7 +164,7 @@ $xgl=$_GET['xgl'];
                 </ul>
         </nav>-->
 
-          <span class="TELEFONOS">959956000 - 959956060 -agregando algo gggggggggggg</span> 
+          <span class="TELEFONOS">959956000 - 959956060 -agregando Juan Diego</span> 
              <!-- DIV HAMBURGUESA--> 
 
         <nav class="nav_hamburguesa">
