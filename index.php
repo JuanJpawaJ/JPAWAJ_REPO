@@ -14,21 +14,6 @@
         content="jpawaj.com:: jpawa :: jjpawa :: tecnico :: COMPUTADORAS :: DELIBERY laptos AREQUIPA :: AQP :: tintas arequipa delivery :: delibears peru :: Delibears Arequipa Perú :: syscomputer :: mujer bonita :: Boutique :: mujer bonita boutique" />
     <title>Jpawaj SAC</title>
 
-    <link rel="stylesheet" href="estilos/normalize.css">
-    <link rel="stylesheet" href="estilos/estilos_generales.css">
-    <link rel="stylesheet" href="estilos/estilos_espacio_formulario.css">
-    <link rel="stylesheet" href="estilos/estilos_nuestrosprincipalesclientes_parte2.css">
-    <link rel="stylesheet" href="estilos/estilos_footer.css">
-    <link rel="stylesheet" href="estilos/estilos_barra_nueva.css">
-    <link rel="stylesheet" href="estilos/estilos_barra_horizontal.css">
-    <link rel="stylesheet" href="estilos/estilos_barra_hamburguesa.css">
-    <link rel="stylesheet" href="estilos/estilo_circulos.css">
-    <link rel="stylesheet" href="estilos/estilos_formulario_nuevo.css">
-    <link rel="stylesheet" href="estilos/estilos_4espacios.css">
-    <link rel="stylesheet" href="estilos/estilos_productos_nuevo.css">
-    <link rel="stylesheet" href="estilos/estilos_stecnico_nuevo.css">
-    <link rel="stylesheet" href="estilos/estilos_boton_whatsapp.css">
-    <link rel="stylesheet" href="estilos/estilos_fixed.css">
 
     <style type="text/css">
         .PRECIOFERTA {
@@ -553,12 +538,6 @@
 
                 </div>
             </div>
-            <div style=" display:flex; justify-content:flex-end;">
-                <p><a href="https://api.whatsapp.com/send?phone=51959956000&text=Más información" target="_blank"><img
-                            src="imagenes/b_whats_consulta1.png" onmouseover="this.src='imagenes/b_whats_consulta2.png'"
-                            onmouseout="this.src='imagenes/b_whats_consulta1.png'" /></a></p>
-            </div>
-
 
 
             <!-- FFFFIIIINNNN *****    01A   **************************** -->
@@ -615,35 +594,8 @@
                     </div>
                 </div>
             </div>
-            <div style=" display:flex; justify-content:flex-end;">
-                <p><a href="https://api.whatsapp.com/send?phone=51959956000&text=Más información" target="_blank"><img
-                            src="imagenes/b_whats_consulta1.png" onmouseover="this.src='imagenes/b_whats_consulta2.png'"
-                            onmouseout="this.src='imagenes/b_whats_consulta1.png'" /></a></p>
-            </div>
-
-            <div class="div_texto_producto">
-                <div class="parte_texto_new">
-                    <p>
-                        Somos una empresa comercializadora de productos generales y tecnológicos de calidad y garantía.
-                        Nuestra experiencia data de más de 25 años en el mercado PERUANO, siendo parte del Grupo
-                        SYSCOMPUTER. Contamos con una vitrina de productos de seguridad e informática. En esta situación
-                        de cuarentena activamos nuestro servicio DELIVERY. Gracias por su confianza y recuerde que
-                        trabajamos para usted.
 
 
-                    </p>
-
-                </div>
-
-            </div>
-
-
-
-            <!-- FFFFIIIINNNN *****    01B   **************************** -->
-
-
-
-            <!-- DIV EDUCACION ********************************* -->
 
             <a name="xinterclass" id="xinterclass"></a>
             <div class="linea_division"> </div>
@@ -704,7 +656,6 @@
             </div>
 
 
-
             <!-- DIV STECNICO ********************************* -->
             <a name="xstecnico" id="xstecnico"></a>
 
@@ -715,7 +666,6 @@
                 <img src="imagenes/titico_stecnico.png" alt="logo_quienessomos">
 
             </div>
-
 
 
             <div class="campo_formulario_nuevo">
@@ -750,18 +700,12 @@
                                     <input type="submit" value="Enviar">
                                 </div>
                                 <h2 class="pie_formulario">Responderemos inmediatamente.<br> Gracias.</h2>
-
                             </form>
-
 
                         </div>
                     </div>
                 </div>
             </div>
-
-
-
-
 
 </body>
 
