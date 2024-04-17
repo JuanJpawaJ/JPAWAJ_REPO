@@ -39,7 +39,7 @@
 	color: #009;
 	font-weight: bold;
 		font-size: 30px;
-		font-style:italic
+		font-style:italic;
 		
 }
 
@@ -101,7 +101,6 @@
     align-items:center;
     padding:1rem;
     overflow:hidden;
-
     padding-top:2rem;
 }
 .logo_new > img{
