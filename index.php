@@ -32,21 +32,21 @@
 {
 	color: #009;
 	font-weight: bold;
-		font-size: 20px;
+	font-size: 20px;
 }
 .TELEFONOS
 {
 	color: #009;
 	font-weight: bold;
-		font-size: 30px;
-		font-style:italic;
+	font-size: 30px;
+	font-style:italic;
 		
 }
 
 .PRODUCTOTXT
 {
 	font-weight: bold;
-		font-size: 10px;
+	font-size: 10px;
 }
 .div_productos{
     /* background-color:var(--azul_principal); */
