@@ -1,0 +1,44 @@
+.div_nuestrosprincipalesclientes{
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.campo_clientes{
+    height:30%;
+    width:95%;
+    margin-top:2rem;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+  /*  overflow:scroll; */
+    
+}
+
+.espacio_clientes{
+  height:90%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:0 0.2rem 0 0;
+}
+
+.logclientes{
+   /* height:55%; */
+    width:15rem;
+  /*  display:flex; */
+    overflow:scroll;
+    
+}
+
+/*.campo_clientes::webkit-scrollbar{
+    width:
+}*/
+
+@media screen and (max-width: 500px){
+  .espacio_clientes{
+    margin:2rem 0 0 0;
+  }
+}
