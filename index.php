@@ -559,21 +559,7 @@
                             onmouseout="this.src='imagenes/b_whats_consulta1.png'" /></a></p>
             </div>
 
-            <div class="div_texto_producto">
-                <div class="parte_texto_new">
-                    <p>
-                        Somos una empresa comercializadora de productos generales y tecnológicos de calidad y garantía.
-                        Nuestra experiencia data de más de 25 años en el mercado PERUANO, siendo parte del Grupo
-                        SYSCOMPUTER. Contamos con una vitrina de productos de seguridad e informática. Gracias por su
-                        confianza y recuerde que trabajamos para usted.
 
-
-                    </p>
-
-                </div>
-
-
-            </div>
 
             <!-- FFFFIIIINNNN *****    01A   **************************** -->
 
