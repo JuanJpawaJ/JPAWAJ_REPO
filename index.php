@@ -1,12 +1,5 @@
-<!DOCTYPE html>
 <html lang="es">
 
-<head>
-    <meta name="robots" content="index, follow" />
-    <meta name="keywords"content="jpawaj.com:: jpawaj :: porongoche : Av. Porongoche: jpawaj computadoras JPAWAJ tecnologia : pawa :: laptos jpawaj:: delivery laptos :: AQP :: servicio tecnico :: Jpawaj Clases de computo, python, profesor de computo, Arequipa, impresoras, camaras de vigilancia, profesor Jose Luis Bustamante y Rivero, jlb y rivero, salchipapas hamburguesas, técnico en arequipa, regalos" />
-    <meta name="description" content="jpawaj.com:: jpawa :: jjpawa :: tecnico :: COMPUTADORAS :: DELIBERY laptos AREQUIPA :: AQP :: tintas arequipa delivery :: delibears peru :: Delibears Arequipa Perú :: syscomputer :: mujer bonita :: Boutique :: mujer bonita boutique" />
-
-</head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RMB75PC13F"></script>
 <script>
@@ -76,8 +69,8 @@
         $producto_it = $tabla["producto_it"];
         echo $producto_it; ?>
     </span>
-    <td width="155" align="center" valign="middle"><img src="<? echo "siga_jpawaj/img_items/" . $tabla["img_it"]; ?>"
-            width="130" height="%" />
+    <td width="155" align="center" valign="middle">
+        <img src="<? echo "siga_jpawaj/img_items/" . $tabla["img_it"]; ?>" width="130" height="%" />
     </td>
     <span class="tachado">
         <? echo ($simbolo_mone . money_format('%n', ($tabla["pv01_it"]))) ?>
@@ -92,11 +85,9 @@
             style="border:0;" onmouseover="this.style.border='solid  2px  #0a3d89';" onmouseout="this.style.border=0;"
             border="0"></a>
     <a href="siga_jpawaj/a_lisimagenes.php?xgl=S">
-        <img src="imagenes/bsys_oferta.jpg" width="180" height="160" style="border:0;"
-            onmouseover="this.style.border='solid  2px  #0a3d89';" onmouseout="this.style.border=0;" border="0">
+        <img src="imagenes/bsys_oferta.jpg" width="180" height="160" style="border:0;"onmouseover="this.style.border='solid  2px  #0a3d89';" onmouseout="this.style.border=0;" border="0">
     </a>
-    href="siga_jpawaj/a_lisgeneral.php?bxproducto=laptop&Submit3=-%3E+Buscar+%3C-"><img src="imagenes/bsys_masv.jpg"
-        width="180" height="160" style="border:0;" onmouseover="this.style.border='solid  2px  #0a3d89';"
+   <img src="imagenes/bsys_masv.jpg" width="180" height="160" style="border:0;" onmouseover="this.style.border='solid  2px  #0a3d89';"
         onmouseout="this.style.border=0;" border="0"></a>
     <form class="formulario_nohay" method="post" action="insert_mail.php">
             <input type="text" id="xcelular" name="xcelular" placeholder="N° Celular">
