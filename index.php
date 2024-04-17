@@ -44,8 +44,6 @@
 
         <!-- <div class="imagen_prod_nuevo">  -->
         <div class="prod_contenedor">
-
-
             <? $result = mysqli_query($connec, "select * from a_items where view03_it='S' AND grupolista_it like '%S%' order by producto_it");
             $total = mysqli_num_rows($result);
             //echo "Registro con : ".$total. " ITEMS ";
