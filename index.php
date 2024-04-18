@@ -67,86 +67,40 @@
 
         </div>
 
-        <!--  SYSCOMPUTER AREA 02 "COMUNICATE CON NOSOTROS  -->
 
 
-        <!--  <div class="campo_formulario_prod_nuevo"> -->
-        <div class="div_productos">
+        <? $result = mysqli_query($connec, "select * from a_items where view03_it='S' AND grupolista_it like '%M%' order by producto_it");
+        $total = mysqli_num_rows($result);
+        //echo "Registro con : ".$total. " ITEMS ";
+        $simbolo_mone = "S/ "; ?>
 
-            <!-- <div class="imagen_prod_nuevo">  -->
-            <div class="prod_contenedor">
+        <? $tabla = mysqli_fetch_array($result);
+        $producto_it = $tabla["producto_it"];
+        echo $producto_it; ?>
+        <img src="<? echo "siga_jpawaj/img_items/" . $tabla["img_it"]; ?>" width="130" height="%" />
+        <? echo ($simbolo_mone . money_format('%n', ($tabla["pv01_it"]))) ?>
+        <? echo ($simbolo_mone . money_format('%n', ($tabla["pv03_it"]))) ?>
+        <? $tabla = mysqli_fetch_array($result);
+        $producto_it = $tabla["producto_it"];
+        echo $producto_it; ?>
+        <img src="<? echo "siga_jpawaj/img_items/" . $tabla["img_it"]; ?>" width="130" height="%" />
+        <? echo ($simbolo_mone . money_format('%n', ($tabla["pv01_it"]))) ?>
+        <? echo ($simbolo_mone . money_format('%n', ($tabla["pv03_it"]))) ?>
 
+        <? $tabla = mysqli_fetch_array($result);
+        $producto_it = $tabla["producto_it"];
+        echo $producto_it; ?>
+        <img src="<? echo "siga_jpawaj/img_items/" . $tabla["img_it"]; ?>" width="130" height="%" />
+        <? echo ($simbolo_mone . money_format('%n', ($tabla["pv01_it"]))) ?>
+        <? echo ($simbolo_mone . money_format('%n', ($tabla["pv03_it"]))) ?>
 
-                <? $result = mysqli_query($connec, "select * from a_items where view03_it='S' AND grupolista_it like '%M%' order by producto_it");
-                $total = mysqli_num_rows($result);
-                //echo "Registro con : ".$total. " ITEMS ";
-                $simbolo_mone = "S/ "; ?>
+        <? $tabla = mysqli_fetch_array($result);
+        $producto_it = $tabla["producto_it"];
+        echo $producto_it; ?>
+        <img src="<? echo "siga_jpawaj/img_items/" . $tabla["img_it"]; ?>" width="130" height="%" />
+        <? echo ($simbolo_mone . money_format('%n', ($tabla["pv01_it"]))) ?>
+        <? echo ($simbolo_mone . money_format('%n', ($tabla["pv03_it"]))) ?>
 
-                <table width="398" height="504" border="1" cellpadding="3" cellspacing="1">
-                    <span class="PRODUCTOTXT">
-                        <? $tabla = mysqli_fetch_array($result);
-                        $producto_it = $tabla["producto_it"];
-                        echo $producto_it; ?>
-                    </span>
-                    <img src="<? echo "siga_jpawaj/img_items/" . $tabla["img_it"]; ?>" width="130" height="%" />
-                    <span class="tachado">
-                        <? echo ($simbolo_mone . money_format('%n', ($tabla["pv01_it"]))) ?>
-                    </span>
-                    <span class="PRECIOFERTA">
-                        <? echo ($simbolo_mone . money_format('%n', ($tabla["pv03_it"]))) ?>
-                    </span>
-                    <span class="PRODUCTOTXT">
-                        <? $tabla = mysqli_fetch_array($result);
-                        $producto_it = $tabla["producto_it"];
-                        echo $producto_it; ?>
-                    </span>
-                    <img src="<? echo "siga_jpawaj/img_items/" . $tabla["img_it"]; ?>" width="130" height="%" />
-                    <span class="tachado">
-                        <? echo ($simbolo_mone . money_format('%n', ($tabla["pv01_it"]))) ?>
-                    </span>
-                    <span class="PRECIOFERTA">
-                        <? echo ($simbolo_mone . money_format('%n', ($tabla["pv03_it"]))) ?>
-                    </span>
-
-                    <td width="31" height="43"> 
-                        <span class="PRODUCTOTXT">
-                            <? $tabla = mysqli_fetch_array($result);
-                            $producto_it = $tabla["producto_it"];
-                            echo $producto_it; ?>
-                        </span>
-                    </td>
-                    <td width="155" align="center" valign="middle"><img
-                            src="<? echo "siga_jpawaj/img_items/" . $tabla["img_it"]; ?>" width="130" height="%" />
-                    </td>
-                    <td height="41" colspan="2" align="center" valign="middle">
-                        <span class="tachado">
-                            <? echo ($simbolo_mone . money_format('%n', ($tabla["pv01_it"]))) ?>
-                        </span>
-                        <span class="PRECIOFERTA">
-                            <? echo ($simbolo_mone . money_format('%n', ($tabla["pv03_it"]))) ?>
-                        </span>
-                    </td>
-
-                    <td width="31" height="43"> <span class="PRODUCTOTXT">
-                            <? $tabla = mysqli_fetch_array($result);
-                            $producto_it = $tabla["producto_it"];
-                            echo $producto_it; ?>
-                        </span>
-                    </td>
-                    <td width="155" align="center" valign="middle"><img
-                            src="<? echo "siga_jpawaj/img_items/" . $tabla["img_it"]; ?>" width="130" height="%" />
-                    </td>
-                    <td height="41" colspan="2" align="center" valign="middle">
-                        <span class="tachado">
-                            <? echo ($simbolo_mone . money_format('%n', ($tabla["pv01_it"]))) ?>
-                        </span>
-                        <span class="PRECIOFERTA">
-                            <? echo ($simbolo_mone . money_format('%n', ($tabla["pv03_it"]))) ?>
-                        </span>
-                    </td>
-
-                </table>
-            </div>
 
 </body>
 
