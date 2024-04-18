@@ -31,10 +31,10 @@
     <? echo ($simbolo_mone . ($tabla["pv01_it"])) ?>
     <? echo ($simbolo_mone . ($tabla["pv03_it"])) ?>
     <br>
+    
     <? $tabla = mysqli_fetch_array($result);
     $producto_it = $tabla["producto_it"];
     echo $producto_it; ?>
-    
     <img src="<? echo "siga_jpawaj/img_items/" . $tabla["img_it"]; ?>" width="130" height="%" />
     <? echo ($simbolo_mone . ($tabla["pv01_it"])) ?>
     <? echo ($simbolo_mone . ($tabla["pv03_it"])) ?>
