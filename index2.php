@@ -91,7 +91,7 @@
             </div>
             <div class="contenedor_productos">
                 <div class="producto">
-                    <div class="contenedor_imagen"><img src="assets/img/imagenes_index/Medidas_proporciones/proporcion_1_1.png" alt=""></div>
+                    <div class="contenedor_imagen"><img src="<? echo "siga_jpawaj/img_items/" . $tabla["img_it"]; ?>" alt=""></div>
                     <h3>
                         <? $tabla = mysqli_fetch_array($result);
                         $producto_it = $tabla["producto_it"];
@@ -111,7 +111,7 @@
                 </div>
 
                 <div class="producto">
-                    <div class="contenedor_imagen"><img src="assets/img/imagenes_index/Medidas_proporciones/proporcion_1_1.png" alt=""></div>
+                    <div class="contenedor_imagen"><img src="<? echo "siga_jpawaj/img_items/" . $tabla["img_it"]; ?>" alt=""></div>
                     <h3>
                         <? $tabla = mysqli_fetch_array($result);
                         $producto_it = $tabla["producto_it"];
@@ -131,7 +131,7 @@
                 </div>
 
                 <div class="producto">
-                    <div class="contenedor_imagen"><img src="assets/img/imagenes_index/Medidas_proporciones/proporcion_1_1.png" alt=""></div>
+                    <div class="contenedor_imagen"><img src="<? echo "siga_jpawaj/img_items/" . $tabla["img_it"]; ?>" alt=""></div>
                     <h3>
                         <? $tabla = mysqli_fetch_array($result);
                         $producto_it = $tabla["producto_it"];
