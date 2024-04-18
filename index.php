@@ -3,12 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <base href="https://www.pawacorp.com/index.html" />-->
-
     <title>Jpawaj SAC</title>
-
 </head>
 
 
@@ -26,16 +22,13 @@
     ?>
 
 
-    <!--  <div class="campo_formulario_prod_nuevo"> -->
     <div class="div_productos">
 
-        <!-- <div class="imagen_prod_nuevo">  -->
         <div class="prod_contenedor">
 
 
             <? $result = mysqli_query($connec, "select * from a_items where view03_it='S' AND grupolista_it like '%S%' order by producto_it");
             $total = mysqli_num_rows($result);
-            //echo "Registro con : ".$total. " ITEMS ";
             $simbolo_mone = "S/ "; ?>
 
             <table width="398" height="504" border="1" cellpadding="3" cellspacing="1">
