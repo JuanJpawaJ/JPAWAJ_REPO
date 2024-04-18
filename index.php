@@ -59,56 +59,6 @@
 
     <a name="xinicio" id="xinicio"></a>
 
-    <div class="cabecera_principal">
-        <img src="imagenes/cab_principal.jpg" alt="logo_quienessomos">
-
-    </div>
-
-
-    <!-- <div style="height:5rem"></div> -->
-
-
-    <!-- DIV 3 CIRCULOS-->
-    <div class="div_circulos">
-
-        <div class="cir_contenedor">
-            <div class="cir_imagen">
-                <a href="#xsyscomputer"><img src="imagenes/b_rectangulo_syscomputer.png" width="250" height="%"
-                        style="border:0;" onmouseover="this.style.border='solid  2px  #0a3d89';"
-                        onmouseout="this.style.border=0;" border="0"></a>
-            </div>
-        </div>
-
-        <div class="cir_contenedor">
-            <div class="cir_imagen">
-                <a href="#xmujerbonita"><img src="imagenes/b_rectangulo_mujerbonita.png" width="250" height="%"
-                        style="border:0;" onmouseover="this.style.border='solid  2px  #0a3d89';"
-                        onmouseout="this.style.border=0;" border="0"></a>
-            </div>
-        </div>
-
-        <div class="cir_contenedor">
-            <div class="cir_imagen">
-                <a href="https://www.jpawaj.com/siga_jpawaj/a_lisgeneral.php?xgl=R"><img
-                        src="imagenes/b_rectangulo_perfumeria.png" width="250" height="%" style="border:0;"
-                        onmouseover="this.style.border='solid  2px  #0a3d89';" onmouseout="this.style.border=0;"
-                        border="0"></a>
-            </div>
-        </div>
-
-        <div class="cir_contenedor">
-            <div class="cir_imagen">
-                <a href="#xinterclass"><img src="imagenes/b_rectangulo_interclass.png" width="250" height="%"
-                        style="border:0;" onmouseover="this.style.border='solid  2px  #0a3d89';"
-                        onmouseout="this.style.border=0;" border="0"></a>
-            </div>
-        </div>
-
-
-
-    </div>
-
-    <!--  SYSCOMPUTER AREA 01 "OFERTAS DE LA SEMANA   -->
     <a name="xsyscomputer" id="xsyscomputer"></a>
 
     <div class="linea_division"> </div>
@@ -304,21 +254,7 @@
 
             </div>
         </div>
-        <div style=" display:flex; justify-content:flex-end;">
-            <p><a href="https://api.whatsapp.com/send?phone=51959956000&text=Más información" target="_blank"><img
-                        src="imagenes/b_whats_consulta1.png" onmouseover="this.src='imagenes/b_whats_consulta2.png'"
-                        onmouseout="this.src='imagenes/b_whats_consulta1.png'" /></a></p>
-        </div>
-
-        <div class="div_texto_producto">
-            <div class="parte_texto_new">
-                <p>&nbsp;</p>
-
-            </div>
-
-
-
-        </div>
+        
 
         <!--  MUJER BONITA AREA 02 "OFERTAS DE LA SEMANA   -->
         <a name="xmujerbonita" id="xmujerbonita"></a>
@@ -452,109 +388,10 @@
                 </table>
             </div>
 
-            <!--  SYSCOMPUTER AREA 02 "COMUNICATE CON NOSOTROS  -->
 
-            <div class="formulario_prod_nuevo">
-                <div class="imagen_prod_nuevo">
-                    <div class="prod_contenedor">
-
-                        <table width="398" height="499" border="0" cellpadding="0" cellspacing="0">
-                            <tr>
-                                <td width="200" height="168" align="center">
-                                    <a href="siga_jpawaj/a_lisgeneral.php?xgl=M"><img src="imagenes/bmujerb_lista.jpg"
-                                            width="180" height="160" style="border:0;"
-                                            onmouseover="this.style.border='solid  2px  #0a3d89';"
-                                            onmouseout="this.style.border=0;" border="0"></a>
-                                </td>
-                                <td width="198" align="center"><img src="imagenes/bsys_ofecemos.jpg" width="182"
-                                        height="162"></td>
-                            </tr>
-                            <tr>
-                                <td height="168" align="center"><a href="siga_jpawaj/a_lisimagenes.php?xgl=M"><img
-                                            src="imagenes/bmujerb_oferta.jpg" width="180" height="160" style="border:0;"
-                                            onmouseover="this.style.border='solid  2px  #0a3d89';"
-                                            onmouseout="this.style.border=0;" border="0"></a> </td>
-                                <td align="center"><a href="https://www.facebook.com/mujerbonita.mb00/"><img
-                                            src="imagenes/bmujerb_face.jpg" width="180" height="160" style="border:0;"
-                                            onmouseover="this.style.border='solid  2px  #0a3d89';"
-                                            onmouseout="this.style.border=0;" border="0"></a> </td>
-                            </tr>
-                            <tr>
-                                <td height="63" align="center"><a
-                                        href="siga_jpawaj/a_lisgeneral.php?bxproducto=vestido&Submit3=-%3E+Buscar+%3C-"><img
-                                            src="imagenes/bmujerb_masv.jpg" width="180" height="160" style="border:0;"
-                                            onmouseover="this.style.border='solid  2px  #0a3d89';"
-                                            onmouseout="this.style.border=0;" border="0"></a>
-                                </td>
-                                <td align="center">
-                                    <table width="100" border="0" cellspacing="0" cellpadding="0">
-                                        <tr>
-                                            <td><img src="imagenes/bsys_disponible.jpg" width="184" height="65"></td>
-                                        </tr>
-                                        <tr>
-                                            <td width="120" height="96" align="center" bgcolor="#CCCCCC">
-                                                <form class="formulario_nohay" method="post" action="insert_mail.php">
-                                                    <div class="campos_formulario">
-                                                        <!--  <label  class="label_form">Su Número de Celular</label> -->
-                                                        <input type="text" id="xcelular" name="xcelular"
-                                                            placeholder="N° Celular">
-                                                        <input type="hidden" name="xarea" value="Syscomputer: ">
-                                                    </div>
-                                                    <div class="contorno_bot_celular">
-                                                        <input type="submit" value="Enviar">
-                                                    </div>
-
-                                                </form>
-
-
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
-
-                    </div>
-
-                </div>
-            </div>
-            <div style=" display:flex; justify-content:flex-end;">
-                <p><a href="https://api.whatsapp.com/send?phone=51959956000&text=Más información" target="_blank"><img
-                            src="imagenes/b_whats_consulta1.png" onmouseover="this.src='imagenes/b_whats_consulta2.png'"
-                            onmouseout="this.src='imagenes/b_whats_consulta1.png'" /></a></p>
-            </div>
-
-            <div class="div_texto_producto">
-                <div class="parte_texto_new">
-                    <p>
-                        Somos una empresa comercializadora de productos generales y tecnológicos de calidad y garantía.
-                        Nuestra experiencia data de más de 25 años en el mercado PERUANO, siendo parte del Grupo
-                        SYSCOMPUTER. Contamos con una vitrina de productos de seguridad e informática. Gracias por su
-                        confianza y recuerde que trabajamos para usted.
-
-
-                    </p>
-
-                </div>
-
-
-            </div>
-
-            <!-- FFFFIIIINNNN *****    01A   **************************** -->
-
-            <!-- DIV PRODUCTOS ******   01B   *************************** -->
             <a name="xproductos" id="xproductos"></a>
 
             <div class="linea_division"> </div>
-
-
-            <div class="titular_con_logo_prod_new">
-                <img src="imagenes/titico_productos.png" alt="logo_quienessomos">
-
-            </div>
-
-
-
 
             <a name="xinterclass" id="xinterclass"></a>
 
