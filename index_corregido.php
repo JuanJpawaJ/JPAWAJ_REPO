@@ -91,6 +91,7 @@ setlocale(LC_ALL, "sp");
                 </span>
             </div>
             <div class="contenedor_productos">
+
                 <?php while ($tabla = mysqli_fetch_array($result)) { ?>
                     <div class="producto">
                         <div class="contenedor_imagen"><img
@@ -114,6 +115,7 @@ setlocale(LC_ALL, "sp");
                         </a>
                     </div>
                 <?php } ?>
+
             </div>
         </div>
         <div class="contenedor_imagenes_grid grid_syscomputer">
@@ -156,6 +158,10 @@ setlocale(LC_ALL, "sp");
 
     <div class="division_secciones"></div>
 
+
+    <? $result = mysqli_query($connec, "select * from a_items where view03_it='S' AND grupolista_it like '%M%' order by producto_it");
+    $simbolo_mone = "S/ "; ?>
+
     <div class="bloque_marca bloque_marca_mujer_bonita" id="mujer_bonita">
         <img src="assets/img/imagenes_index/logo_mujer_bonita.png" alt="">
         <div class="contenedor_ofertas_semana">
@@ -166,57 +172,29 @@ setlocale(LC_ALL, "sp");
                 </span>
             </div>
             <div class="contenedor_productos">
-                <div class="producto">
-                    <div class="contenedor_imagen"><img
-                            src="assets/img/imagenes_index/Medidas_proporciones/proporcion_1_1.png" alt=""></div>
-                    <h3>LAPTOP LENOVO AMD RYZEN 5 752U 2.8/4.3GHZ IDEAPAD 1 15AM 15.5” FHD...</h3>
-                    <div class="precios">
-                        <p class="precio_antiguo">S/. 1699.00</p>
-                        <p class="precio_oferta">S/. 1599.00</p>
+            <?php while ($tabla = mysqli_fetch_array($result)) { ?>
+                    <div class="producto">
+                        <div class="contenedor_imagen"><img
+                                src="<?php echo "siga_jpawaj/img_items/" . $tabla["img_it"]; ?>" /></div>
+                        <h3>
+                            <?php
+                            $producto_it = $tabla["producto_it"];
+                            echo $producto_it;
+                            ?>
+                        </h3>
+                        <div class="precios">
+                            <p class="precio_antiguo">
+                                <?php echo ($simbolo_mone . ($tabla["pv01_it"])) ?>
+                            </p>
+                            <p class="precio_oferta">
+                                <?php echo ($simbolo_mone . ($tabla["pv03_it"])) ?>
+                            </p>
+                        </div>
+                        <a href="">
+                            Comprar
+                        </a>
                     </div>
-                    <a href="">
-                        Comprar
-                    </a>
-                </div>
-
-                <div class="producto">
-                    <div class="contenedor_imagen"><img
-                            src="assets/img/imagenes_index/Medidas_proporciones/proporcion_1_1.png" alt=""></div>
-                    <h3>LAPTOP LENOVO AMD RYZEN 5 752U 2.8/4.3GHZ IDEAPAD 1 15AM 15.5” FHD...</h3>
-                    <div class="precios">
-                        <p class="precio_antiguo">S/. 1699.00</p>
-                        <p class="precio_oferta">S/. 1599.00</p>
-                    </div>
-                    <a href="">
-                        Comprar
-                    </a>
-                </div>
-
-                <div class="producto">
-                    <div class="contenedor_imagen"><img
-                            src="assets/img/imagenes_index/Medidas_proporciones/proporcion_1_1.png" alt=""></div>
-                    <h3>LAPTOP LENOVO AMD RYZEN 5 752U 2.8/4.3GHZ IDEAPAD 1 15AM 15.5” FHD...</h3>
-                    <div class="precios">
-                        <p class="precio_antiguo">S/. 1699.00</p>
-                        <p class="precio_oferta">S/. 1599.00</p>
-                    </div>
-                    <a href="">
-                        Comprar
-                    </a>
-                </div>
-
-                <div class="producto">
-                    <div class="contenedor_imagen"><img
-                            src="assets/img/imagenes_index/Medidas_proporciones/proporcion_1_1.png" alt=""></div>
-                    <h3>LAPTOP LENOVO AMD RYZEN 5 752U 2.8/4.3GHZ IDEAPAD 1 15AM 15.5” FHD...</h3>
-                    <div class="precios">
-                        <p class="precio_antiguo">S/. 1699.00</p>
-                        <p class="precio_oferta">S/. 1599.00</p>
-                    </div>
-                    <a href="">
-                        Comprar
-                    </a>
-                </div>
+                <?php } ?>
             </div>
         </div>
         <div class="contenedor_imagenes_grid grid_mujer_bonita">

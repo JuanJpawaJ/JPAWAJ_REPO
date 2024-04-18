@@ -23,3 +23,6 @@ while ($tabla = mysqli_fetch_array($result)) {
     <?php
 }
 ?>
+
+<? $result = mysqli_query($connec, "select * from a_items where view03_it='S' AND grupolista_it like '%M%' order by producto_it");
+    $simbolo_mone = "S/ "; ?>
