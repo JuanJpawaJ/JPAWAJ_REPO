@@ -112,10 +112,18 @@
 
                 <div class="producto">
                     <div class="contenedor_imagen"><img src="assets/img/imagenes_index/Medidas_proporciones/proporcion_1_1.png" alt=""></div>
-                    <h3>LAPTOP LENOVO AMD RYZEN 5 752U 2.8/4.3GHZ IDEAPAD 1 15AM 15.5” FHD...</h3>
+                    <h3>
+                        <? $tabla = mysqli_fetch_array($result);
+                        $producto_it = $tabla["producto_it"];
+                        echo $producto_it; ?>
+                    </h3>
                     <div class="precios">
-                        <p class="precio_antiguo">S/. 1699.00</p>
-                        <p class="precio_oferta">S/. 1599.00</p>
+                        <p class="precio_antiguo">
+                            <? echo ($simbolo_mone . money_format('%n', ($tabla["pv01_it"]))) ?>
+                        </p>
+                        <p class="precio_oferta">
+                            <? echo ($simbolo_mone . money_format('%n', ($tabla["pv03_it"]))) ?>
+                        </p>
                     </div>
                     <a href="">
                         Comprar
@@ -124,10 +132,18 @@
 
                 <div class="producto">
                     <div class="contenedor_imagen"><img src="assets/img/imagenes_index/Medidas_proporciones/proporcion_1_1.png" alt=""></div>
-                    <h3>LAPTOP LENOVO AMD RYZEN 5 752U 2.8/4.3GHZ IDEAPAD 1 15AM 15.5” FHD...</h3>
+                    <h3>
+                        <? $tabla = mysqli_fetch_array($result);
+                        $producto_it = $tabla["producto_it"];
+                        echo $producto_it; ?>
+                    </h3>
                     <div class="precios">
-                        <p class="precio_antiguo">S/. 1699.00</p>
-                        <p class="precio_oferta">S/. 1599.00</p>
+                        <p class="precio_antiguo">
+                            <? echo ($simbolo_mone . money_format('%n', ($tabla["pv01_it"]))) ?>
+                        </p>
+                        <p class="precio_oferta">
+                            <? echo ($simbolo_mone . money_format('%n', ($tabla["pv03_it"]))) ?>
+                        </p>
                     </div>
                     <a href="">
                         Comprar
@@ -135,11 +151,19 @@
                 </div>
 
                 <div class="producto">
-                    <div class="contenedor_imagen"><img src="assets/img/imagenes_index/Medidas_proporciones/proporcion_1_1.png" alt=""></div>
-                    <h3>LAPTOP LENOVO AMD RYZEN 5 752U 2.8/4.3GHZ IDEAPAD 1 15AM 15.5” FHD...</h3>
+                    <div class="contenedor_imagen"><img src="<? echo "siga_jpawaj/img_items/" . $tabla["img_it"]; ?>" alt=""></div>
+                    <h3>
+                        <? $tabla = mysqli_fetch_array($result);
+                        $producto_it = $tabla["producto_it"];
+                        echo $producto_it; ?>
+                    </h3>
                     <div class="precios">
-                        <p class="precio_antiguo">S/. 1699.00</p>
-                        <p class="precio_oferta">S/. 1599.00</p>
+                        <p class="precio_antiguo">
+                            <? echo ($simbolo_mone . money_format('%n', ($tabla["pv01_it"]))) ?>
+                        </p>
+                        <p class="precio_oferta">
+                            <? echo ($simbolo_mone . money_format('%n', ($tabla["pv03_it"]))) ?>
+                        </p>
                     </div>
                     <a href="">
                         Comprar
