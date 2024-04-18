@@ -35,17 +35,6 @@
     ?>
 
 
-
-    <a name="xinicio" id="xinicio"></a>
-
-    <a name="xsyscomputer" id="xsyscomputer"></a>
-
-    <div class="linea_division"> </div>
-
-    <div class="logo_new">
-        <img src="imagenes/logo_SyscomputerCorp_ok_png.png" alt="logo_quienessomos">
-    </div>
-
     <!--  <div class="campo_formulario_prod_nuevo"> -->
     <div class="div_productos">
 
@@ -171,16 +160,7 @@
         </div>
 
         <!--  SYSCOMPUTER AREA 02 "COMUNICATE CON NOSOTROS  -->
-        
-
-        <!--  MUJER BONITA AREA 02 "OFERTAS DE LA SEMANA   -->
-        <a name="xmujerbonita" id="xmujerbonita"></a>
-
-        <div class="linea_division"> </div>
-
-        <div class="logo_new">
-            <img src="imagenes/logo_mujerbonita_boutique_ok_png.png" alt="logo_quienessomos">
-        </div>
+    
 
         <!--  <div class="campo_formulario_prod_nuevo"> -->
         <div class="div_productos">
@@ -304,20 +284,6 @@
                     </tr>
                 </table>
             </div>
-
-
-            <a name="xproductos" id="xproductos"></a>
-
-            <div class="linea_division"> </div>
-
-            <a name="xinterclass" id="xinterclass"></a>
-
-            <a name="xstecnico" id="xstecnico"></a>
-
-            <a name="xclientes" id="xclientes"></a>
-
-            <a name="xcontactos" id="xcontactos"></a>
-
 
 </body>
 
