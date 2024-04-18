@@ -191,7 +191,7 @@ setlocale(LC_ALL, "sp");
                             </p>
                         </div>
                         <a href="">
-                            Ver
+                            Ver producto
                         </a>
                     </div>
                 <?php } ?>
