@@ -7,30 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <base href="https://www.pawacorp.com/index.html" />-->
 
-    <meta name="robots" content="index, follow" />
-    <meta name="keywords"
-        content="jpawaj.com:: jpawaj :: porongoche : Av. Porongoche: jpawaj computadoras JPAWAJ tecnologia : pawa :: laptos jpawaj:: delivery laptos :: AQP :: servicio tecnico :: Jpawaj Clases de computo, python, profesor de computo, Arequipa, impresoras, camaras de vigilancia, profesor Jose Luis Bustamante y Rivero, jlb y rivero, salchipapas hamburguesas, técnico en arequipa, regalos" />
-    <meta name="description"
-        content="jpawaj.com:: jpawa :: jjpawa :: tecnico :: COMPUTADORAS :: DELIBERY laptos AREQUIPA :: AQP :: tintas arequipa delivery :: delibears peru :: Delibears Arequipa Perú :: syscomputer :: mujer bonita :: Boutique :: mujer bonita boutique" />
+
     <title>Jpawaj SAC</title>
 
-    <link rel="stylesheet" href="estilos/normalize.css">
-    <link rel="stylesheet" href="estilos/estilos_generales.css">
-    <link rel="stylesheet" href="estilos/estilos_espacio_formulario.css">
-    <link rel="stylesheet" href="estilos/estilos_nuestrosprincipalesclientes_parte2.css">
-    <link rel="stylesheet" href="estilos/estilos_footer.css">
-    <link rel="stylesheet" href="estilos/estilos_barra_nueva.css">
-    <link rel="stylesheet" href="estilos/estilos_barra_horizontal.css">
-    <link rel="stylesheet" href="estilos/estilos_barra_hamburguesa.css">
-    <link rel="stylesheet" href="estilos/estilo_circulos.css">
-    <link rel="stylesheet" href="estilos/estilos_formulario_nuevo.css">
-    <link rel="stylesheet" href="estilos/estilos_4espacios.css">
-    <link rel="stylesheet" href="estilos/estilos_productos_nuevo.css">
-    <link rel="stylesheet" href="estilos/estilos_stecnico_nuevo.css">
-    <link rel="stylesheet" href="estilos/estilos_boton_whatsapp.css">
-    <link rel="stylesheet" href="estilos/estilos_fixed.css">
-
-    
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RMB75PC13F"></script>
