@@ -1,4 +1,4 @@
-## Evitar los siguientes errores
+# Evitar los siguientes errores
 
 1. Llamar a las primeras filas (registros) de una tabla. 
 
@@ -38,3 +38,8 @@ while ($tabla = mysqli_fetch_array($result)) {
         <br>
 <?php
 ```
+
+
+# Correcciones a hacer
+
+- Hacer que el texto de las cartas del producto se reduzca para que tengan un limite.
