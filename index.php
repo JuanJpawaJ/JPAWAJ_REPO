@@ -7,19 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <base href="https://www.pawacorp.com/index.html" />-->
 
-
     <title>Jpawaj SAC</title>
 
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RMB75PC13F"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
 
-    gtag('config', 'G-RMB75PC13F');
-</script>
 
 <body>
     <?php
