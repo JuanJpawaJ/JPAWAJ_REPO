@@ -49,10 +49,6 @@
 
             <table width="398" height="504" border="1" cellpadding="3" cellspacing="1">
                 <tr>
-                    <td height="52" colspan="2" align="center"><img src="imagenes/cab_ofertas_sys.jpg" width="406"
-                            height="43"></td>
-                </tr>
-                <tr>
                     <td width="195" height="230" align="center">
                         <table width="186" border="0" cellspacing="0" cellpadding="0">
                             <tr>
@@ -176,10 +172,6 @@
 
                 <table width="398" height="504" border="1" cellpadding="3" cellspacing="1">
                     <tr>
-                        <td height="52" colspan="2" align="center"><img src="imagenes/cab_ofertas_semana_rosado.jpg"
-                                width="406" height="43"></td>
-                    </tr>
-                    <tr>
                         <td width="195" height="230" align="center">
                             <table width="186" border="0" cellspacing="0" cellpadding="0">
                                 <tr>
@@ -239,9 +231,8 @@
                                             $producto_it = $tabla["producto_it"];
                                             echo $producto_it; ?>
                                         </span></td>
-                                    <td width="155" align="center" valign="middle"><img
-                                            src="<? echo "siga_jpawaj/img_items/" . $tabla["img_it"]; ?>" width="130"
-                                            height="%" /> </td>
+                                    <td width="155" align="center" valign="middle"><img src="<? echo "siga_jpawaj/img_items/" . $tabla["img_it"]; ?>" width="130"height="%" /> 
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td height="41" colspan="2" align="center" valign="middle">
