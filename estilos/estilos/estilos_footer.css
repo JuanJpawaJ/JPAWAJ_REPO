@@ -1,0 +1,51 @@
+.div_footer{
+    background-color:#0a3d89;
+    height:30vh;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.campos_footer{
+    width:24.5%;
+    border-right:0.3rem solid white;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.centrado_campos_footer{
+    /* background-color:blue; */
+    width:90%;
+    height:90%;
+}
+
+.logcontactos{
+   /* height:55%; */
+    width:100%;
+  /*  display:flex; */
+    overflow:scroll;
+    
+}
+
+@media screen and (max-width: 800px){
+    .campos_footer{
+        width:50%;  
+        height:50%;    
+    }
+    .div_footer{
+        height:60vh;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .div_footer{
+        height:120vh;
+    }
+    .campos_footer{
+        height:20%;
+        width:100%;
+        border-right:none;
+    }
+}

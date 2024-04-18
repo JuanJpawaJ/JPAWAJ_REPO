@@ -1,0 +1,68 @@
+.campo_formulario_prod_nuevo{
+   
+
+    height:32rem;
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+
+    padding-top:1rem;
+}
+
+.imagen_prod_nuevo{
+
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height:100%;
+    width:60%;
+}
+
+.imagen_prod_nuevo > img{
+    height:100%;
+}
+
+.formulario_prod_nuevo{
+
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height:100%;
+    width:40%;
+}
+.div_texto_producto{
+	
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:2rem 0;
+}
+
+
+@media screen and (max-width:768px){
+    .imagen_prod_nuevo{
+    
+        height:50%;
+        width:100%;
+    }
+
+    .formulario_prod_nuevo{
+    
+        height:50%;
+        width:100%;
+    }
+
+    .campo_formulario_prod_nuevo{
+    
+        height:64rem;
+        
+    }
+    .imagen_prod_nuevo > img{
+        height:auto;
+        width:100%;
+    }
+}
