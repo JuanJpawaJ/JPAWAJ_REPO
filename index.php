@@ -171,68 +171,6 @@
         </div>
 
         <!--  SYSCOMPUTER AREA 02 "COMUNICATE CON NOSOTROS  -->
-
-        <div class="formulario_prod_nuevo">
-            <div class="imagen_prod_nuevo">
-                <div class="prod_contenedor">
-
-                    <table width="398" height="499" border="0" cellpadding="0" cellspacing="0">
-                        <tr>
-                            <td width="200" height="168" align="center">
-                                <a href="siga_jpawaj/a_lisgeneral.php?xgl=S"><img src="imagenes/bsys_lista.jpg"
-                                        width="180" height="160" style="border:0;"
-                                        onmouseover="this.style.border='solid  2px  #0a3d89';"
-                                        onmouseout="this.style.border=0;" border="0"></a>
-                            </td>
-                            <td width="198" align="center"><img src="imagenes/bsys_ofecemos.jpg" width="182"
-                                    height="162"></td>
-                        </tr>
-                        <tr>
-                            <td height="168" align="center"><a href="siga_jpawaj/a_lisimagenes.php?xgl=S"><img
-                                        src="imagenes/bsys_oferta.jpg" width="180" height="160" style="border:0;"
-                                        onmouseover="this.style.border='solid  2px  #0a3d89';"
-                                        onmouseout="this.style.border=0;" border="0"></a> </td>
-                            <td align="center"><img src="imagenes/bsys_stecnico.jpg" width="180" height="160"></td>
-                        </tr>
-                        <tr>
-                            <td height="63" align="center"> <a
-                                    href="siga_jpawaj/a_lisgeneral.php?bxproducto=laptop&Submit3=-%3E+Buscar+%3C-"><img
-                                        src="imagenes/bsys_masv.jpg" width="180" height="160" style="border:0;"
-                                        onmouseover="this.style.border='solid  2px  #0a3d89';"
-                                        onmouseout="this.style.border=0;" border="0"></a>
-                            </td>
-                            <td align="center">
-                                <table width="100" border="0" cellspacing="0" cellpadding="0">
-                                    <tr>
-                                        <td><img src="imagenes/bsys_disponible.jpg" width="184" height="65"></td>
-                                    </tr>
-                                    <tr>
-                                        <td width="120" height="96" align="center" bgcolor="#CCCCCC">
-                                            <form class="formulario_nohay" method="post" action="insert_mail.php">
-                                                <div class="campos_formulario">
-                                                    <!--  <label  class="label_form">Su Número de Celular</label> -->
-                                                    <input type="text" id="xcelular" name="xcelular"
-                                                        placeholder="N° Celular">
-                                                    <input type="hidden" name="xarea" value="Syscomputer: ">
-                                                </div>
-                                                <div class="contorno_bot_celular">
-                                                    <input type="submit" value="Enviar">
-                                                </div>
-
-                                            </form>
-
-
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-
-                </div>
-
-            </div>
-        </div>
         
 
         <!--  MUJER BONITA AREA 02 "OFERTAS DE LA SEMANA   -->
