@@ -31,18 +31,30 @@
             $total = mysqli_num_rows($result);
             $simbolo_mone = "S/ "; ?>
 
+            <table width="398" height="504" border="1" cellpadding="3" cellspacing="1">
+                <tr>
+                    <td width="195" height="230" align="center">
+                        <table width="186" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td width="31" height="43"> <span class="PRODUCTOTXT">
                                         <? $tabla = mysqli_fetch_array($result);
                                         $producto_it = $tabla["producto_it"];
                                         echo $producto_it; ?>
-
-                                    <img
+                                    </span></td>
+                                <td width="155" align="center" valign="middle"><img
                                         src="<? echo "siga_jpawaj/img_items/" . $tabla["img_it"]; ?>" width="130"
-                                        height="%" />
-                           
-                            
+                                        height="%" /></td>
+                            </tr>
+                            <tr>
+                                <td height="41" colspan="2" align="center" valign="middle">
+                                    <span class="tachado">
                                         <? echo ($simbolo_mone . money_format('%n', ($tabla["pv01_it"]))) ?>
+                                    </span>
                                     <span class="PRECIOFERTA">
                                         <? echo ($simbolo_mone . money_format('%n', ($tabla["pv03_it"]))) ?>
+                                    </span>
+
+                                </td>
                             </tr>
                         </table>
                     </td>
