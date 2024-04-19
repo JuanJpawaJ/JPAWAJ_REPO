@@ -117,11 +117,13 @@
         .contenedor_productos > .producto > h3{
             font-size: var(--fuente_tamanio_titulo_4);
             margin-bottom: 1rem;
-            
+
             overflow: hidden;
             display: -webkit-box;
             -webkit-line-clamp: 4; /* Limita a 4 líneas */
             -webkit-box-orient: vertical;
+
+            min-height: 69px; /*ESTO NO ES LO MÁS ÓPTIMO PERO FUNCIONA*/
         }
 
         .contenedor_productos > .producto > .precios{
