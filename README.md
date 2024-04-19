@@ -43,6 +43,3 @@ while ($tabla = mysqli_fetch_array($result)) {
 # Correcciones a hacer
 
 - Hacer que el texto de las cartas del producto se reduzca para que tengan un limite.
-<<<<<<< HEAD
-=======
->>>>>>> 526077690819c3d965685ffb84073e596b38ed4e
