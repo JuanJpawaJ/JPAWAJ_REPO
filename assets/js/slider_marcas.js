@@ -13,6 +13,12 @@ document.addEventListener("DOMContentLoaded", function() {
         sliderTrack.appendChild(clonedSlide); // Agregar el clon al slider
     }
 
+    for (var i = 0; i < totalSlides; i++) {
+        var originalSlide = originalSlides[i]; 
+        var clonedSlide = originalSlide.cloneNode(true); // Clonar el div de la imagen
+        sliderTrack.appendChild(clonedSlide); // Agregar el clon al slider
+    }
+
     var rootStyle = document.documentElement.style;
 
     // Modificar el valor de la variable CSS
