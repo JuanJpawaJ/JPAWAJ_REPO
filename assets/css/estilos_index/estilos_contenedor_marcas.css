@@ -38,6 +38,8 @@
     --color_grises_0:#B3B3B3;
     --color_grises_-1:#DDDDDD;
     --color_grises_-2:#F7F7F7;
+
+    --cantidad_de_imagenes_de_marca:1;
 }
 
 .contenedor_marcas{
@@ -68,7 +70,7 @@
 
             /*Se viene lo chido*/
             animation: scroll 40s linear infinite;
-            width: calc(235px * 10);
+            width: calc(235px * calc(var(--cantidad_de_imagenes_de_marca)*2));
         }
 
         .contenedor_slider .slide{
@@ -90,6 +92,6 @@
             transform:translateX(0);
         }
         100%{
-            transform:translateX(calc(-235px * 5));
+            transform:translateX(calc(-235px * var(--cantidad_de_imagenes_de_marca)));
         }
     }

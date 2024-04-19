@@ -12,4 +12,10 @@ document.addEventListener("DOMContentLoaded", function() {
         var clonedSlide = originalSlide.cloneNode(true); // Clonar el div de la imagen
         sliderTrack.appendChild(clonedSlide); // Agregar el clon al slider
     }
+
+    var rootStyle = document.documentElement.style;
+
+    // Modificar el valor de la variable CSS
+    rootStyle.setProperty(' --cantidad_de_imagenes_de_marca', totalSlides);
 });
+
