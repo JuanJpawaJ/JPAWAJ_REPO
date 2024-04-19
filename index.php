@@ -326,9 +326,6 @@ setlocale(LC_ALL, "sp");
                 <div class="slide"><img
                         src="assets/img/imagenes_index/Medidas_proporciones/Proporciones_marcas/marca_4_23_40.png"
                         alt=""></div>
-                <div class="slide"><img
-                        src="assets/img/imagenes_index/Medidas_proporciones/Proporciones_marcas/marca_5_23_40.png"
-                        alt=""></div>
             </div>
         </div>
     </div>
