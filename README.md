@@ -43,3 +43,9 @@ while ($tabla = mysqli_fetch_array($result)) {
 # Correcciones a hacer
 
 - Hacer que el texto de las cartas del producto se reduzca para que tengan un limite.
+
+
+
+# Observaciones
+
+- El archivo `a_lisgeneral.php` y `a_lisimagenes.php` parecen ser lo mismo, la diferencia sería que uno tiene el tamaño de las imagenes más grandes
