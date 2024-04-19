@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var rootStyle = document.documentElement.style;
 
     // Modificar el valor de la variable CSS
-    rootStyle.setProperty(' --cantidad_de_imagenes_de_marca', totalSlides);
+    rootStyle.setProperty('--cantidad_de_imagenes_de_marca', totalSlides.toString());
+
 });
 
