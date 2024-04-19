@@ -23,7 +23,7 @@
 <? echo ($simbolo_mone . ($tabla["pv03_it"])) ?>
 ```
 
-    - En este caso se pueden ver 2 bloques de codigo exactamente iguales, sin embargo no van a mostrar lo mismo. Ya que al llamar a `mysql_fetch_array()`, la primera vez mostrará le primer registro, si lo volvemos a llmar ya no mostrará el primer registro, sino el segundo registro y así sucesivamente. Sin embargo no es una buena practica recomendada
+- En este caso se pueden ver 2 bloques de codigo exactamente iguales, sin embargo no van a mostrar lo mismo. Ya que al llamar a `mysql_fetch_array()`, la primera vez mostrará le primer registro, si lo volvemos a llmar ya no mostrará el primer registro, sino el segundo registro y así sucesivamente. Sin embargo no es una buena practica recomendada
 
 Lo correcto sería usar un bucle para mostrar estos registros
 
@@ -43,3 +43,4 @@ while ($tabla = mysqli_fetch_array($result)) {
 # Correcciones a hacer
 
 - Hacer que el texto de las cartas del producto se reduzca para que tengan un limite.
+- Hacer que la lista de marcas de clientes acepte cualquier cantidad
