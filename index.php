@@ -43,10 +43,8 @@ setlocale(LC_ALL, "sp");
 
         <div class="cont_lista_elementos" id="cont_elementos_navegador">
             <ul>
-                <li><a href="#syscomputer"><img src="assets/img/imagenes_index/logo_syscomputer_blanco.png" alt=""></a>
-                </li>
-                <li><a href="#mujer_bonita"><img src="assets/img/imagenes_index/logo_mujer_bonita_blanco.png"
-                            alt=""></a></li>
+                <li><a href="#syscomputer"><img src="assets/img/imagenes_index/logo_syscomputer_blanco.png" alt=""></a></li>
+                <li><a href="#mujer_bonita"><img src="assets/img/imagenes_index/logo_mujer_bonita_blanco.png"alt=""></a></li>
                 <li><a href="#"><img src="assets/img/imagenes_index/logo_mujer_bonita_blanco.png" alt=""></a></li>
                 <li><a href="#interclass"><img src="assets/img/imagenes_index/logo_interclass_blanco.png" alt=""></a>
                 </li>
