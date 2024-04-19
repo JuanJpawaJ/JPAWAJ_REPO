@@ -93,27 +93,27 @@ setlocale(LC_ALL, "sp");
             <div class="contenedor_productos">
 
                 <?php while ($tabla = mysqli_fetch_array($result)) { ?>
-                    <div class="producto">
-                        <div class="contenedor_imagen"><img
-                                src="<?php echo "siga_jpawaj/img_items/" . $tabla["img_it"]; ?>" /></div>
-                        <h3>
-                            <?php
+                <div class="producto">
+                    <div class="contenedor_imagen"><img src="<?php echo " siga_jpawaj/img_items/" . $tabla["img_it"];
+                            ?>" /></div>
+                    <h3>
+                        <?php
                             $producto_it = $tabla["producto_it"];
                             echo $producto_it;
                             ?>
-                        </h3>
-                        <div class="precios">
-                            <p class="precio_antiguo">
-                                <?php echo ($simbolo_mone . ($tabla["pv01_it"])) ?>
-                            </p>
-                            <p class="precio_oferta">
-                                <?php echo ($simbolo_mone . ($tabla["pv03_it"])) ?>
-                            </p>
-                        </div>
-                        <a href="">
-                            Ver producto
-                        </a>
+                    </h3>
+                    <div class="precios">
+                        <p class="precio_antiguo">
+                            <?php echo ($simbolo_mone . ($tabla["pv01_it"])) ?>
+                        </p>
+                        <p class="precio_oferta">
+                            <?php echo ($simbolo_mone . ($tabla["pv03_it"])) ?>
+                        </p>
                     </div>
+                    <a href="">
+                        Ver producto
+                    </a>
+                </div>
                 <?php } ?>
 
             </div>
@@ -172,28 +172,28 @@ setlocale(LC_ALL, "sp");
                 </span>
             </div>
             <div class="contenedor_productos">
-            <?php while ($tabla = mysqli_fetch_array($result)) { ?>
-                    <div class="producto">
-                        <div class="contenedor_imagen"><img
-                                src="<?php echo "siga_jpawaj/img_items/" . $tabla["img_it"]; ?>" /></div>
-                        <h3>
-                            <?php
+                <?php while ($tabla = mysqli_fetch_array($result)) { ?>
+                <div class="producto">
+                    <div class="contenedor_imagen"><img src="<?php echo " siga_jpawaj/img_items/" . $tabla["img_it"];
+                            ?>" /></div>
+                    <h3>
+                        <?php
                             $producto_it = $tabla["producto_it"];
                             echo $producto_it;
                             ?>
-                        </h3>
-                        <div class="precios">
-                            <p class="precio_antiguo">
-                                <?php echo ($simbolo_mone . ($tabla["pv01_it"])) ?>
-                            </p>
-                            <p class="precio_oferta">
-                                <?php echo ($simbolo_mone . ($tabla["pv03_it"])) ?>
-                            </p>
-                        </div>
-                        <a href="">
-                            Ver producto
-                        </a>
+                    </h3>
+                    <div class="precios">
+                        <p class="precio_antiguo">
+                            <?php echo ($simbolo_mone . ($tabla["pv01_it"])) ?>
+                        </p>
+                        <p class="precio_oferta">
+                            <?php echo ($simbolo_mone . ($tabla["pv03_it"])) ?>
+                        </p>
                     </div>
+                    <a href="">
+                        Ver producto
+                    </a>
+                </div>
                 <?php } ?>
             </div>
         </div>
