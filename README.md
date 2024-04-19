@@ -43,6 +43,7 @@ while ($tabla = mysqli_fetch_array($result)) {
 # Correcciones a hacer
 
 - ~~Hacer que el texto de las cartas del producto se reduzca para que tengan un limite.~~
+- Las imagenes del slider de entrada, son backgrounds, y por eso no se puede adaptar a un formato correspondiente. Modificar los backgrounds a imagenes img.
 
 
 
