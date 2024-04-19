@@ -330,7 +330,7 @@ setlocale(LC_ALL, "sp");
                         src="assets/img/imagenes_index/Medidas_proporciones/Proporciones_marcas/marca_5_23_40.png"
                         alt=""></div>
 
-                <div class="slide"><img
+                <!-- <div class="slide"><img
                         src="assets/img/imagenes_index/Medidas_proporciones/Proporciones_marcas/marca_1_23_40.png"
                         alt=""></div>
                 <div class="slide"><img
@@ -344,7 +344,7 @@ setlocale(LC_ALL, "sp");
                         alt=""></div>
                 <div class="slide"><img
                         src="assets/img/imagenes_index/Medidas_proporciones/Proporciones_marcas/marca_5_23_40.png"
-                        alt=""></div>
+                        alt=""></div> -->
             </div>
         </div>
     </div>
@@ -416,6 +416,7 @@ setlocale(LC_ALL, "sp");
 
     <script src="assets/js/navegador.js"></script>
     <script src="assets/js/slider_automatico.js"></script>
+    <script src="assets/js/slider_marcas.js"></script>
 </body>
 
 </html>
