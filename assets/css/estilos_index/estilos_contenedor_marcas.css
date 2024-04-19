@@ -70,7 +70,7 @@
 
             /*Se viene lo chido*/
             animation: scroll 40s linear infinite;
-            width: calc(235px * calc(var(--cantidad_de_imagenes_de_marca)*2));
+            width: calc(235px * 10);
         }
 
         .contenedor_slider .slide{
@@ -92,6 +92,6 @@
             transform:translateX(0);
         }
         100%{
-            transform:translateX(calc(-235px * var(--cantidad_de_imagenes_de_marca)));
+            transform:translateX(calc(-235px * 5));
         }
     }
