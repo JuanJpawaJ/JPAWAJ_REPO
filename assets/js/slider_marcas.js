@@ -7,14 +7,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Clonar y agregar los divs de imágenes originales al slider según sea necesario
     var totalSlides = originalSlides.length;
-    for (var i = 0; i < totalSlides; i++) {
-        var originalSlide = originalSlides[i]; 
-        var clonedSlide = originalSlide.cloneNode(true); // Clonar el div de la imagen
-        sliderTrack.appendChild(clonedSlide); // Agregar el clon al slider
-    }
-
-    for (var i = 0; i < totalSlides; i++) {
-        var originalSlide = originalSlides[i]; 
+    for (var i = 0; i < totalSlides * 2; i++) {
+        var originalSlide = originalSlides[i % totalSlides]; // Utilizamos el operador de módulo para ciclar los divs de imágenes
         var clonedSlide = originalSlide.cloneNode(true); // Clonar el div de la imagen
         sliderTrack.appendChild(clonedSlide); // Agregar el clon al slider
     }
