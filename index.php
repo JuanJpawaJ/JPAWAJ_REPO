@@ -313,7 +313,7 @@ setlocale(LC_ALL, "sp");
     <div class="contenedor_marcas">
         <h3>NUESTROS PRINCIPALES CLIENTES</h3>
         <div class="contenedor_slider">
-            <div class="slider-track">
+            <div class="slider-track" id="sliderTrack">
                 <div class="slide"><img
                         src="assets/img/imagenes_index/Medidas_proporciones/Proporciones_marcas/marca_1_23_40.png"
                         alt=""></div>
