@@ -2,7 +2,32 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>LP - CLIENTES</title>
+<style type="text/css">
+.TITULO_NARANJA {
+	color: #FC0;
+	font-weight: bold;
+}
+.diez {	font-size: 10px;
+}
+.texto_tablas11 {	font-size: 11px;
+}
+.tabla10 {
+	font-size: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.tabla20 {
+	font-size: 20px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
 
+.TITULO {
+	font-size: 12px;
+	color: #000;
+}
+.tit_menu_sup {
+	color: #000;
+}
+</style>
 </head>
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
 <?php
@@ -17,6 +42,10 @@ $viewmodi=$_GET['viewmodi'];
 $xgl=$_GET['xgl'];
 ?>
 
+  <table width="778" border="1" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center" class="tit_menu_sup"><img src="../imagenes/cab_lista_ok.jpg" width="774" height="162"></td>
+    </tr>
   <tr class="tit_menu_sup">
     <td width="774" height="102" align="center" bgcolor="#FFFFCC"><table width="755" border="1" cellspacing="2" cellpadding="0">
       <tr>
