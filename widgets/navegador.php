@@ -1,4 +1,6 @@
-<?php include '../assets/css/estilos_index/estilos_navegador.css'; ?>
+<style>
+    @import url('../assets/css/estilos_index/estilos_navegador.css');
+</style>
 
 <div class="navegador">
         <img src="assets/img/imagenes_index/logo_JPAWAJ_rojo_blanco.png" alt="" class="logo_principal">
