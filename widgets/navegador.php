@@ -1,3 +1,5 @@
+<?php include '../assets/css/estilos_index/estilos_navegador.css'; ?>
+
 <div class="navegador">
         <img src="assets/img/imagenes_index/logo_JPAWAJ_rojo_blanco.png" alt="" class="logo_principal">
 
@@ -20,8 +22,6 @@
 
 <div class="navegador_espaciado"></div>
 
-
-    <?php include '../assets/css/estilos_index/estilos_navegador.css'; ?>
 
 
 <script src="../assets/js/navegador.js"></script>
