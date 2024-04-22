@@ -1,6 +1,4 @@
-<style>
-    @import url('../assets/css/estilos_index/estilos_navegador.css');
-</style>
+<link rel="stylesheet" href="../assets/css/estilos_index/estilos_navegador.css">
 
 <div class="navegador">
         <img src="assets/img/imagenes_index/logo_JPAWAJ_rojo_blanco.png" alt="" class="logo_principal">
