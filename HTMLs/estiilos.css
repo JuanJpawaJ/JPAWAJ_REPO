@@ -1,0 +1,134 @@
+:root{
+    --fuente_gruesa:Satoshi-Black;
+    --fuente_media:Satoshi-Bold;
+    --fuente_delgado:Satoshi-Regular;
+
+    --fuente_tamanio_titulo_1:28px;
+    --fuente_tamanio_titulo_2:22px;
+    --fuente_tamanio_titulo_3:18px;
+    --fuente_tamanio_titulo_4:15px;
+
+    --color_rojo_1:#A61818;
+    --color_rojo_0:#D61F1F;
+    --color_rojo_-1:#E54B4B;
+    --color_rojo_-2:#EC7E7E;
+
+    --color_caqui_1:#7B6851;
+    --color_caqui_0:#9D8669;
+    --color_caqui_-1:#B3A18A;
+    --color_caqui_-2:#C9BCAC;
+
+    --color_azul_oscuro_1:#111114;
+    --color_azul_oscuro_0:#16161A;
+    --color_azul_oscuro_-1:#454552;
+    --color_azul_oscuro_-2:#747489;
+
+    --color_crema_1:#8C7469;
+    --color_crema_0:#AB988F;
+    --color_crema_-1:#BEAFA8;
+    --color_crema_-2:#D0C6C1;
+
+    --color_salmon_claro_1:#CBABAB;
+    --color_salmon_claro_0:#F4EDED;
+    --color_salmon_claro_-1:#F6F1F1;
+    --color_salmon_claro_-2:#F9F5F5;
+
+    --color_grises_2:#1C1C1C;
+    --color_grises_1:#686868;
+    --color_grises_0:#B3B3B3;
+    --color_grises_-1:#DDDDDD;
+    --color_grises_-2:#F7F7F7;
+
+    --color_division:#FF974B;
+}
+
+
+body{
+    background-color: red;
+}
+
+.contenedor_total{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    width:100vw;
+}
+
+
+.contenedor_grid_imagenes_almacen{
+    display: grid;
+    background-color: green;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:1rem;
+    width:90vw;
+    justify-items: center;
+}
+
+
+/* sssssssssssssssss */
+
+
+.imagen_almacenada{
+    background-color: blue;
+    width:17rem;
+
+    --radio:10px;
+    border-radius: var(--radio);
+    color:white;
+}
+
+    .cont_imagen{
+        background-color: var(--color_grises_2);
+        width:100%;
+        height:8rem;
+        border-radius: var(--radio)  var(--radio) 0 0;
+        padding:0.5rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        
+    }
+
+    .cont_imagen > img{
+        height: auto;
+        max-height: 100%;
+        max-width: 100%;
+        background-image: url('../assets/img/Fondo_png.jpg');
+        background-size: 100%;
+    }
+    
+    
+    .foot_imagen{
+        display: flex;
+        background-color: var(--color_azul_oscuro_0);
+        height: 3rem;
+        align-items: center;
+        justify-content: space-between;
+        padding:6px 0.5rem;
+        border-radius: 0 0 var(--radio)  var(--radio);
+    }
+
+        .foot_imagen > p{
+            font-size: var(--fuente_tamanio_titulo_4);
+            overflow-wrap: break-word; /* Permite que las palabras salten de línea cuando exceden el ancho del contenedor */
+            word-break: break-all;
+            
+        }
+
+        .foot_imagen > div{
+            display: flex;
+            gap: 0.5rem;
+        }
+
+
+        .foot_imagen > div > span{
+            /* background-color: blue; */
+            padding:4px;
+            cursor:pointer;
+        }.foot_imagen > div > span:hover{
+            color:rgb(24, 144, 230);
+
+            text-shadow: 0px 0px 3px rgba(24,144,230,0.75);
+        }
