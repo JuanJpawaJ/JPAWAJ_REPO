@@ -16,7 +16,7 @@ setlocale(LC_ALL, "sp");
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="assets/css/estilos_index/estilos_generales.css">
+    <link rel="stylesheet" href="assets/css/estilos_generales.css">
     <link rel="stylesheet" href="assets/css/estilos_index/estilos_slider_imagenes.css">
     <link rel="stylesheet" href="assets/css/estilos_index/estilos_bloques_marcas/estilos_bloques_marcas_general.css">
     <link rel="stylesheet" href="assets/css/estilos_index/estilos_bloques_marcas/estilos_contenedor_ofertas_semana.css">
