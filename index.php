@@ -17,7 +17,7 @@ setlocale(LC_ALL, "sp");
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="assets/css/estilos_index/estilos_generales.css">
-    <link rel="stylesheet" href="assets/css/estilos_index/estilos_navegador.css">
+    <!-- <link rel="stylesheet" href="assets/css/estilos_index/estilos_navegador.css"> -->
     <link rel="stylesheet" href="assets/css/estilos_index/estilos_footer.css">
     <link rel="stylesheet" href="assets/css/estilos_index/estilos_slider_imagenes.css">
     <link rel="stylesheet" href="assets/css/estilos_index/estilos_bloques_marcas/estilos_bloques_marcas_general.css">
@@ -32,7 +32,7 @@ setlocale(LC_ALL, "sp");
 </head>
 
 <body>
-    <div class="navegador">
+    <!-- <div class="navegador">
         <img src="assets/img/imagenes_index/logo_JPAWAJ_rojo_blanco.png" alt="" class="logo_principal">
 
         <button class="boton_nav" id="boton_hamburguesa" onclick="desplegarBotonHamburguesa()">
@@ -52,7 +52,9 @@ setlocale(LC_ALL, "sp");
         </div>
     </div>
 
-    <div class="navegador_espaciado"></div>
+    <div class="navegador_espaciado"></div> -->
+
+    <?php include 'widgets/navegador.php' ?>
 
     <div class="contenedor_slider_imagenes">
         <div class="slider-wrapper">
@@ -414,7 +416,7 @@ setlocale(LC_ALL, "sp");
         </div>
     </div>
 
-    <script src="assets/js/navegador.js"></script>
+    <!-- <script src="assets/js/navegador.js"></script> -->
     <script src="assets/js/slider_automatico.js"></script>
     <script src="assets/js/slider_marcas.js"></script>
 </body>
