@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="assets/css/estilos_index/estilos_navegador.css">
+<link rel="stylesheet" href="assets/css/estilos_index/estilos_footer.css">
 
 <div class="footer">
     <div>
