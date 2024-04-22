@@ -17,8 +17,6 @@ setlocale(LC_ALL, "sp");
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="assets/css/estilos_index/estilos_generales.css">
-    <!-- <link rel="stylesheet" href="assets/css/estilos_index/estilos_navegador.css"> -->
-    <link rel="stylesheet" href="assets/css/estilos_index/estilos_footer.css">
     <link rel="stylesheet" href="assets/css/estilos_index/estilos_slider_imagenes.css">
     <link rel="stylesheet" href="assets/css/estilos_index/estilos_bloques_marcas/estilos_bloques_marcas_general.css">
     <link rel="stylesheet" href="assets/css/estilos_index/estilos_bloques_marcas/estilos_contenedor_ofertas_semana.css">
@@ -32,27 +30,6 @@ setlocale(LC_ALL, "sp");
 </head>
 
 <body>
-    <!-- <div class="navegador">
-        <img src="assets/img/imagenes_index/logo_JPAWAJ_rojo_blanco.png" alt="" class="logo_principal">
-
-        <button class="boton_nav" id="boton_hamburguesa" onclick="desplegarBotonHamburguesa()">
-            <span class="material-symbols-outlined">
-                menu
-            </span>
-        </button>
-
-        <div class="cont_lista_elementos" id="cont_elementos_navegador">
-            <ul>
-                <li><a href="#syscomputer"><img src="assets/img/imagenes_index/logo_syscomputer_blanco.png" alt=""></a></li>
-                <li><a href="#mujer_bonita"><img src="assets/img/imagenes_index/logo_mujer_bonita_blanco.png"alt=""></a></li>
-                <li><a href="#"><img src="assets/img/imagenes_index/logo_mujer_bonita_blanco.png" alt=""></a></li>
-                <li><a href="#interclass"><img src="assets/img/imagenes_index/logo_interclass_blanco.png" alt=""></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="navegador_espaciado"></div> -->
 
     <?php include 'widgets/navegador.php' ?>
 
@@ -351,72 +328,8 @@ setlocale(LC_ALL, "sp");
         </div>
     </div>
 
-    <div class="footer">
-        <div>
-            <h4>Tienda exhibición:</h4>
-            <p>Av. Porongoche 323 (1/2 cuadra del Mall Aventura Plaza - Porongoche)</p>
+    <?php include 'widgets/footer.php' ?>
 
-            <h4>Almacen:</h4>
-            <p>Calle Sena 105 - Coop 58 (1/2 cuadra del Mall Aventura Porongoche)</p>
-        </div>
-
-        <div>
-            <h4>Teléfonos:</h4>
-            <ul>
-                <li>959956000</li>
-                <li>959956060</li>
-            </ul>
-
-            <h4>Correo electrónico:</h4>
-            <ul>
-                <li>jpawasac@gmail.com</li>
-                <li>jpawasac@gmail.com</li>
-            </ul>
-        </div>
-        <div>
-            <ul class="lista_de_redes_sociales">
-                <li>
-                    <a href="#">
-                        <img src="assets/img/imagenes_index/logo_facebook_blanco.png" alt="">
-                        <p>instagram/jpawaj</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="assets/img/imagenes_index/logo_facebook_blanco.png" alt="">
-                        <p>instagram/jpawaj</p>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#">
-                        <img src="assets/img/imagenes_index/logo_instagram_blanco.png" alt="">
-                        <p>instagram/jpawaj</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="assets/img/imagenes_index/logo_whatsapp_blanco.png" alt="">
-                        <p>instagram/jpawaj</p>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#">
-                        <img src="assets/img/imagenes_index/logo_whatsapp_blanco.png" alt="">
-                        <p>instagram/jpawaj</p>
-                    </a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="contenedor_final_footer">
-            <img src="assets/img/imagenes_index/logo_JPAWAJ_blanco.png" alt="">
-            <p>Arequipa - Peru - 2024</p>
-        </div>
-    </div>
-
-    <!-- <script src="assets/js/navegador.js"></script> -->
     <script src="assets/js/slider_automatico.js"></script>
     <script src="assets/js/slider_marcas.js"></script>
 </body>
