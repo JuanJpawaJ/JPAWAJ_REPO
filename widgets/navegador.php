@@ -20,8 +20,8 @@
 
 <div class="navegador_espaciado"></div>
 
-<style>
+
     <?php include '../assets/css/estilos_index/estilos_navegador.css'; ?>
-</style>
+
 
 <script src="../assets/js/navegador.js"></script>
