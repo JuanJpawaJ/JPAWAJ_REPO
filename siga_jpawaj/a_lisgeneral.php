@@ -53,15 +53,7 @@
       </table>
     </td>
   </tr>
-  <tr class="tit_menu_sup">
-    <td height="262" valign="top" bgcolor="#FFFFCC">
       <!-- INICIO DE MUESTRA ITEMS -->
-      <table width="772" height="65" border="1" cellspacing="0">
-        <tr bgcolor="#CCFFFF" class="diez">
-          <td width="85">IMAGEN</td>
-          <td width="569" align="center">PRODUCTO</td>
-          <td width="104" align="center">PRECIO</td>
-        </tr>
         <?php
 
 
@@ -110,12 +102,6 @@
         }
 
         ?>
-      </table>
-
-    </td>
-  </tr>
-
-  </table>
 
   <p>&nbsp;</p>
 </body>
