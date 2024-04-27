@@ -92,11 +92,9 @@
     $precio = $simbolo_mone . money_format('%n', ($pv01_it));
     
      include '../widgets/carta_producto.php';
-?>
-</div>
-<?
   }
 ?>
+</div>
 
 </body>
 
