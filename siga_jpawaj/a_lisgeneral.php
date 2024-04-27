@@ -18,7 +18,6 @@
   <link rel="stylesheet" href="../assets/css/estilos_carta_producto.css">
 </head>
 
-
 <body>
   <?php
   include ("connec_sql_new.php");
@@ -28,8 +27,8 @@
 
   $bxproducto = $_GET['bxproducto'];
   $xgl = $_GET['xgl'];
+  $pagina = $_GET['pagina']
   ?>
-
 
   <a href="a_lisgeneral.php?xgl=S">tec</a>
   <a href="a_lisgeneral.php?xgl=M">bou</a>
@@ -42,22 +41,17 @@
       <div class="contenedor_buscador">
         <input type="text" placeholder="¿Qué producto deseas buscar?" name="bxproducto" id="bxproducto">
         <button type="submit" name="Submit3">
-          <span class="material-symbols-outlined">
-            search
-          </span>
+          <span class="material-symbols-outlined">search</span>
         </button>
       </div>
     </div>
   </form>
 
-
   <?php
-
 
   $max_registros = 40; // Número máximo de registros por página
   $pagina_actual = isset($_GET['pagina']) ? $_GET['pagina'] : 1; // Página actual (inicialmente 1 si no se especifica)
-  // Calcular el índice de inicio para la consulta LIMIT
-  $indice_inicio = ($pagina_actual - 1) * $max_registros;
+  $indice_inicio = ($pagina_actual - 1) * $max_registros; // Calcular el índice de inicio para la consulta LIMIT
 
   if (strlen($bxproducto) == 0) {
     $query = "SELECT * FROM a_items WHERE view01_it='S' AND grupolista_it LIKE '%$xgl%' ORDER BY producto_it LIMIT $indice_inicio, $max_registros";
@@ -83,16 +77,6 @@
       $img_it = $tabla["img_it"];
       $producto_it = $tabla["producto_it"];
       $pv01_it = $tabla["pv01_it"];
-      // $codigo_it = $tabla["codigo_it"];
-      // $codfabrica_it = $tabla["codfabrica_it"];
-      // $grupolista_it = $tabla["grupolista_it"];
-      // $marka_it = $tabla["marka_it"];
-      // $fabricante_it = $tabla["fabricante_it"];
-      // $precom_it = $tabla["precom_it"];
-      // $util01 = $pv01_it - $precom_it;
-      // $pv02_it = $tabla["pv02_it"];
-      // $pv03_it = $tabla["pv03_it"];
-      // $view01_it = $tabla["view01_it"];
       $simbolo_mone = "S/  ";
 
       $imagen = "img_items/" . $img_it;
@@ -110,23 +94,22 @@
 
     $total_paginas = ceil($total_registros_t / $max_registros);
 
-    // echo "Total de páginas: " . $total_paginas;
-    // echo "Total de registros: " . $total;
-    
     if ($pagina_actual > 1) { // Mostrar enlaces de página previa si no estamos en la primera página
       echo '<a href="a_lisgeneral.php?xgl=' . $xgl . '&bxproducto=' . $bxproducto . '&pagina=' . ($pagina_actual - 1) . '">Anterior</a>';
     }
-
     for ($i = 1; $i <= $total_paginas; $i++) {  // Mostrar números de página
-      echo '<a href="a_lisgeneral.php?xgl=' . $xgl . '&bxproducto=' . $bxproducto . '&pagina=' . $i . '">' . $i . '</a>';
+      echo '<a class="numeracion_paginas"href="a_lisgeneral.php?xgl=' . $xgl . '&bxproducto=' . $bxproducto . '&pagina=' . $i . '">' . $i . '</a>';
     }
-
     if ($pagina_actual < $total_paginas) { // Mostrar enlaces de página siguiente si no estamos en la última página
       echo '<a href="a_lisgeneral.php?xgl=' . $xgl . '&bxproducto=' . $bxproducto . '&pagina=' . ($pagina_actual + 1) . '">Siguiente</a>';
     }
     ?>
   </div>
 
+  <script>
+    lista_numeros_paginas = document.getElementsByClassName("numeracion_paginas");
+    numero_pagina_actual = parseInt(<?php echo $pagina_actual?>)
+    lista_numeros_paginas[numero_pagina_actual-1].style.backgroundColor = "gray";
+  </script>
 </body>
-
 </html>
