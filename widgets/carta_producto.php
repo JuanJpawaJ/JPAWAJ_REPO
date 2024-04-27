@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="assets/css/estilos_carta_producto.css">
+<link rel="stylesheet" href="../assets/css/estilos_carta_producto.css">
 
 <div class="carta_producto">
     <div class="contenedor_imagen"><img src="<?php echo " siga_jpawaj/img_items/" . $tabla["img_it"];?>" /></div>
