@@ -7,7 +7,7 @@
     </h3>
     <div class="precios">
         <p class="precio_oferta">
-            S/. <?php echo $precio;?>
+            <?php echo $precio;?>
         </p>
     </div>
     <a href="#">

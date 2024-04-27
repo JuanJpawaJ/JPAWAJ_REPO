@@ -100,25 +100,12 @@
         
           ?>
 
-          <tr bgcolor="#FFFFFF" class="tabla20">
-            <td height="33" valign="middle" bgcolor="#FFFFFF"><a href="ilbupweiv.php?idx=<?php echo ($id); ?>"><img
-                  src=" <?php echo "img_items/" . $img_it ?> " width="60" height="%" /><? if ($pv03_it > 0) { ?> <img
-                    src="iconos/promocion.jpg" alt="EN OFERTA" width="14" height="30" /> <? } ?></a></td>
-
-            <td bgcolor="#FFFFFF">
-              <?php echo ($producto_it) ?>
-            </td>
-            <!--- <td align="right" bgcolor=<? echo ($color1) ?> ><?php echo ($simbolo_mone . money_format('%n', (round($precom_it + ($precom_it * $pje1_it / 100))))) ?></td>-->
-            <td align="right" bgcolor=#FFFF66>
-              <?php echo ($simbolo_mone . money_format('%n', ($pv01_it))) ?>
-            </td>
             <?php 
               $imagen = "img_items/" . $img_it;
               $nombre_producto = $producto_it;
               $precio = $simbolo_mone . money_format('%n', ($pv01_it));
               include '../widgets/carta_producto.php' ;
             ?>
-          </tr>
         <?php
         }
 
