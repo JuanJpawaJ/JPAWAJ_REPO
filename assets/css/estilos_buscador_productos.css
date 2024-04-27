@@ -1,12 +1,12 @@
 body{
-    background-color: green;
+    background-color: rgb(241, 241, 241);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .buscador{
-    background-color: rgb(129, 129, 129);
+    /* background-color: rgb(129, 129, 129); */
     display: flex;
 
     width:60%;
@@ -58,7 +58,7 @@ body{
 .grid_lista_productos{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color: red;
+    /* background-color: red; */
     width:80vw;
     row-gap: 2rem;
     margin-bottom: 2rem;
