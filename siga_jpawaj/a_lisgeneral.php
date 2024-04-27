@@ -113,17 +113,17 @@
 
     // Mostrar enlaces de página previa si no estamos en la primera página
     if ($pagina_actual > 1) {
-        echo '<a href="a_lisgeneral.php?pagina=' . ($pagina_actual - 1) . '">Anterior</a>';
+      echo '<a href="a_lisgeneral.php?xgl=' . $xgl . '&bxproducto=' . $bxproducto . '&pagina=' . ($pagina_actual - 1) . '">Anterior</a>';
     }
 
     // Mostrar números de página
     for ($i = 1; $i <= $total_paginas; $i++) {
-        echo '<a href="a_lisgeneral.php?pagina=' . $i . '">' . $i . '</a>';
+      echo '<a href="a_lisgeneral.php?xgl=' . $xgl . '&bxproducto=' . $bxproducto . '&pagina=' . $i . '">' . $i . '</a>';
     }
 
     // Mostrar enlaces de página siguiente si no estamos en la última página
     if ($pagina_actual < $total_paginas) {
-        echo '<a href="a_lisgeneral.php?pagina=' . ($pagina_actual + 1) . '">Siguiente</a>';
+      echo '<a href="a_lisgeneral.php?xgl=' . $xgl . '&bxproducto=' . $bxproducto . '&pagina=' . ($pagina_actual + 1) . '">Siguiente</a>';
     }
     ?>
 </div>
