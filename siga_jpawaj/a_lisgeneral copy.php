@@ -136,7 +136,7 @@ while ($tabla=mysqli_fetch_array($result)){
 
           <!--- <td align="right" bgcolor=<? echo($color1) ?> ><?php echo($simbolo_mone.money_format('%n',(round($precom_it+($precom_it*$pje1_it/100))))) ?></td>-->
           <td align="right" bgcolor=#FFFF66 ><?php echo($simbolo_mone.money_format('%n',($pv01_it))) ?></td>
-
+          pppp
           <?php include '../widgets/carta_producto.php' ?>
         </tr>
         <?php 
