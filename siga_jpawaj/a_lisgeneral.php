@@ -57,7 +57,7 @@
   //$result=mysql_query("select * from items order by codfabrica_it",$connec);
 
   // Número máximo de registros por página
-  $max_registros = 50;
+  $max_registros = 40;
 
   // Página actual (inicialmente 1 si no se especifica)
   $pagina_actual = isset($_GET['pagina']) ? $_GET['pagina'] : 1;
