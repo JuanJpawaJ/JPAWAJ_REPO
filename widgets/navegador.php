@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="assets/css/estilos_navegador.css">
+<link rel="stylesheet" href="<?php echo $agregado_en_cab?>assets/css/estilos_navegador.css">
 
 <div class="navegador">
         <img src="assets/img/imagenes_index/logo_JPAWAJ_rojo_blanco.png" alt="" class="logo_principal">

@@ -110,11 +110,14 @@
       echo '<a href="a_lisgeneral.php?xgl=' . $xgl . '&bxproducto=' . $bxproducto . '&pagina=' . ($pagina_actual + 1) . '">Siguiente</a>';
     }
 
-    $agregado_en = "../";
-    include '../widgets/footer.php';
+    
     ?>
   </div>
 
+  <?php
+    $agregado_en = "../";
+    include '../widgets/footer.php';
+  ?>
   <script>
     lista_numeros_paginas = document.getElementsByClassName("numeracion_paginas");
     numero_pagina_actual = parseInt(<?php echo $pagina_actual?>)
