@@ -7,11 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="stylesheet" href="../assets/css/estilos_generales.css">
-  <link rel="stylesheet"
-    href="../assets/css/estilos_index/estilos_bloques_marcas/estilos_contenedor_ofertas_semana.css">
+  <link rel="stylesheet" href="../assets/css/estilos_index/estilos_bloques_marcas/estilos_contenedor_ofertas_semana.css">
   <link rel="stylesheet" href="../assets/css/estilos_carta_producto.css">
   <link rel="stylesheet" href="../assets/css/estilos_buscador_productos.css">
 
@@ -100,6 +98,7 @@
       $imagen = "img_items/" . $img_it;
       $nombre_producto = $producto_it;
       $precio = $simbolo_mone . money_format('%n', ($pv01_it));
+      $enlace = "ilbupweiv.php?idx=" . $id;
 
       include '../widgets/carta_producto.php';
     }

@@ -10,7 +10,7 @@
             <?php echo $precio;?>
         </p>
     </div>
-    <a href="#">
+    <a href="<?php echo $enlace;?>">
         Ver producto
     </a>
 </div>
