@@ -36,10 +36,10 @@
 
   ?>
 
-  <a href="a_lisgeneral.php?xgl=S">tec</a>
+  <!-- <a href="a_lisgeneral.php?xgl=S">tec</a>
   <a href="a_lisgeneral.php?xgl=M">bou</a>
   <a href="a_lisgeneral.php?xgl=R">rega</a>
-  <a href="a_lisgeneral.php?xgl=P">perf</a>
+  <a href="a_lisgeneral.php?xgl=P">perf</a> -->
 
   <form id="form0" name="form0" method="get" action="a_lisgeneral.php">
     <div class="buscador">

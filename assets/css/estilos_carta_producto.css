@@ -126,6 +126,8 @@
 
     .carta_producto {
         padding: 0.6rem 0.5rem;
+        min-width: 170px;
     }
+
 
 }
