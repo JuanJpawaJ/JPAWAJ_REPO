@@ -40,7 +40,7 @@
 
 
   <!-- INICIO DE MUESTRA ITEMS -->
-  <?php
+<?php
   //$result=mysql_query("select * from items order by codfabrica_it",$connec);
   
   if (strlen($bxproducto) == 0) {
@@ -52,7 +52,6 @@
 
   //$result=mysql_query("select * from a_items",$connec);
   $total = mysqli_num_rows($result);
-
 
   while ($tabla = mysqli_fetch_array($result)) {
 
@@ -78,8 +77,7 @@
     include '../widgets/carta_producto.php';
 
   }
-
-  ?>
+?>
 
 </body>
 
