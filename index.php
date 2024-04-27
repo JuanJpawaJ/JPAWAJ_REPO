@@ -30,7 +30,10 @@ setlocale(LC_ALL, "sp");
 
 <body>
 
-    <?php include 'widgets/navegador.php' ?>
+    <?php 
+    $agregado_en_cab = "";
+    include 'widgets/navegador.php' 
+    ?>
 
     <div class="contenedor_slider_imagenes">
         <div class="slider-wrapper">
@@ -327,7 +330,10 @@ setlocale(LC_ALL, "sp");
         </div>
     </div>
 
-    <?php include 'widgets/footer.php' ?>
+    <?php 
+    $agregado_en = "";
+    include 'widgets/footer.php' 
+    ?>
 
     <script src="assets/js/slider_automatico.js"></script>
     <script src="assets/js/slider_marcas.js"></script>

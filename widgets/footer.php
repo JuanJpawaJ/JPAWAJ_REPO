@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="assets/css/estilos_footer.css">
+<link rel="stylesheet" href="<?php echo $agregado_en?>assets/css/estilos_footer.css">
 
 <div class="footer">
     <div>

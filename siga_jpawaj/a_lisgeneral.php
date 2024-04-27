@@ -27,7 +27,13 @@
 
   $bxproducto = $_GET['bxproducto'];
   $xgl = $_GET['xgl'];
-  $pagina = $_GET['pagina']
+  $pagina = $_GET['pagina'];
+
+  $agregado_en_cab = "../";
+  include '../widgets/navegador.php';
+
+
+
   ?>
 
   <a href="a_lisgeneral.php?xgl=S">tec</a>
@@ -103,6 +109,9 @@
     if ($pagina_actual < $total_paginas) { // Mostrar enlaces de página siguiente si no estamos en la última página
       echo '<a href="a_lisgeneral.php?xgl=' . $xgl . '&bxproducto=' . $bxproducto . '&pagina=' . ($pagina_actual + 1) . '">Siguiente</a>';
     }
+
+    $agregado_en = "../";
+    include '../widgets/footer.php';
     ?>
   </div>
 
