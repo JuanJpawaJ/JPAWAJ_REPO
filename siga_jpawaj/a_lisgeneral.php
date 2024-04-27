@@ -125,7 +125,6 @@
   <div class="paginacion">
     <?php
     // Calcular el número total de páginas
-    $total_paginas = ceil($total / $max_registros);
 
     // Mostrar enlaces de página previa si no estamos en la primera página
     if ($pagina_actual > 1) {
