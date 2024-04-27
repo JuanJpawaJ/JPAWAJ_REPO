@@ -55,15 +55,25 @@
   <!-- INICIO DE MUESTRA ITEMS -->
   <?php
   //$result=mysql_query("select * from items order by codfabrica_it",$connec);
+
+  // Número máximo de registros por página
+  $max_registros = 50;
+
+  // Página actual (inicialmente 1 si no se especifica)
+  $pagina_actual = isset($_GET['pagina']) ? $_GET['pagina'] : 1;
+
+  // Calcular el índice de inicio para la consulta LIMIT
+  $indice_inicio = ($pagina_actual - 1) * $max_registros;
   
   if (strlen($bxproducto) == 0) {
-    $result = mysqli_query($connec, "select * from a_items where view01_it='S' AND grupolista_it like '%$xgl%' order by producto_it");
+    $query = "SELECT * FROM a_items WHERE view01_it='S' AND grupolista_it LIKE '%$xgl%' ORDER BY producto_it LIMIT $indice_inicio, $max_registros";
   } else {
     $bxproducto1 = trim($bxproducto);
-    $result = mysqli_query($connec, "select * from a_items where producto_it like '%$bxproducto1%' order by producto_it");
+    $query = "SELECT * FROM a_items WHERE producto_it LIKE '%$bxproducto1%' ORDER BY producto_it LIMIT $indice_inicio, $max_registros";
   }
 
   //$result=mysql_query("select * from a_items",$connec);
+  $result = mysqli_query($connec, $query);
   $total = mysqli_num_rows($result);
 
   ?>
@@ -95,6 +105,28 @@
     }
     ?>
   </div>
+
+  <div class="paginacion">
+    <?php
+    // Calcular el número total de páginas
+    $total_paginas = ceil($total / $max_registros);
+
+    // Mostrar enlaces de página previa si no estamos en la primera página
+    if ($pagina_actual > 1) {
+        echo '<a href="a_lisgeneral.php?pagina=' . ($pagina_actual - 1) . '">Anterior</a>';
+    }
+
+    // Mostrar números de página
+    for ($i = 1; $i <= $total_paginas; $i++) {
+        echo '<a href="a_lisgeneral.php?pagina=' . $i . '">' . $i . '</a>';
+    }
+
+    // Mostrar enlaces de página siguiente si no estamos en la última página
+    if ($pagina_actual < $total_paginas) {
+        echo '<a href="a_lisgeneral.php?pagina=' . ($pagina_actual + 1) . '">Siguiente</a>';
+    }
+    ?>
+</div>
 
 </body>
 
