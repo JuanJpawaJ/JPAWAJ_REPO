@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="../assets/css/estilos_carta_producto.css">
   <link rel="stylesheet" href="../assets/css/estilos_buscador_productos.css">
 
+  <link rel="stylesheet" href="../assets/css/estilos_carta_producto.css">
 </head>
 
 
@@ -50,16 +51,12 @@
   </form>
 
 
-  <!-- INICIO DE MUESTRA ITEMS -->
   <?php
-  //$result=mysql_query("select * from items order by codfabrica_it",$connec);
   
   // Número máximo de registros por página
   $max_registros = 40;
-
   // Página actual (inicialmente 1 si no se especifica)
   $pagina_actual = isset($_GET['pagina']) ? $_GET['pagina'] : 1;
-
   // Calcular el índice de inicio para la consulta LIMIT
   $indice_inicio = ($pagina_actual - 1) * $max_registros;
 
@@ -70,12 +67,9 @@
     $query = "SELECT * FROM a_items WHERE producto_it LIKE '%$bxproducto1%' ORDER BY producto_it LIMIT $indice_inicio, $max_registros";
   }
 
-
-
   //$result=mysql_query("select * from a_items",$connec);
   $result = mysqli_query($connec, $query);
   $total = mysqli_num_rows($result);
-
 
   $query_total = "SELECT COUNT(*) AS total_registros FROM a_items WHERE view01_it='S' AND grupolista_it LIKE '%$xgl%'";
   $result_total = mysqli_query($connec, $query_total);
@@ -116,8 +110,9 @@
   $total_paginas = ceil($total_registros_t / $max_registros);
   ?>
 
-  <?php echo "Total de páginas: " . $total_paginas;
-  echo "Total de registros: " . $total;
+  <?php 
+  // echo "Total de páginas: " . $total_paginas;
+  // echo "Total de registros: " . $total;
   ?>
 
   <div class="paginacion">
