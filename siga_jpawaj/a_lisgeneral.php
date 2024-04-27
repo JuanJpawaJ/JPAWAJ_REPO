@@ -26,8 +26,6 @@
   setlocale(LC_ALL, "sp");
 
   $bxproducto = $_GET['bxproducto'];
-  // ********  ADICIONA, MODIFICA, ELIMINA REGISTROS 
-  // $viewmodi = $_GET['viewmodi'];
   $xgl = $_GET['xgl'];
   ?>
 
@@ -55,7 +53,7 @@
   <!-- INICIO DE MUESTRA ITEMS -->
   <?php
   //$result=mysql_query("select * from items order by codfabrica_it",$connec);
-
+  
   // Número máximo de registros por página
   $max_registros = 40;
 
@@ -64,7 +62,7 @@
 
   // Calcular el índice de inicio para la consulta LIMIT
   $indice_inicio = ($pagina_actual - 1) * $max_registros;
-  
+
   if (strlen($bxproducto) == 0) {
     $query = "SELECT * FROM a_items WHERE view01_it='S' AND grupolista_it LIKE '%$xgl%' ORDER BY producto_it LIMIT $indice_inicio, $max_registros";
   } else {
@@ -90,19 +88,19 @@
     while ($tabla = mysqli_fetch_array($result)) {
 
       $id = $tabla["id"];
-      $codigo_it = $tabla["codigo_it"];
-      $codfabrica_it = $tabla["codfabrica_it"];
+      // $codigo_it = $tabla["codigo_it"];
+      // $codfabrica_it = $tabla["codfabrica_it"];
       $img_it = $tabla["img_it"];
-      $grupolista_it = $tabla["grupolista_it"];
+      // $grupolista_it = $tabla["grupolista_it"];
       $producto_it = $tabla["producto_it"];
-      $marka_it = $tabla["marka_it"];
-      $fabricante_it = $tabla["fabricante_it"];
-      $precom_it = $tabla["precom_it"];
+      // $marka_it = $tabla["marka_it"];
+      // $fabricante_it = $tabla["fabricante_it"];
+      // $precom_it = $tabla["precom_it"];
       $pv01_it = $tabla["pv01_it"];
-      $util01 = $pv01_it - $precom_it;
-      $pv02_it = $tabla["pv02_it"];
-      $pv03_it = $tabla["pv03_it"];
-      $view01_it = $tabla["view01_it"];
+      // $util01 = $pv01_it - $precom_it;
+      // $pv02_it = $tabla["pv02_it"];
+      // $pv03_it = $tabla["pv03_it"];
+      // $view01_it = $tabla["view01_it"];
       $simbolo_mone = "S/  ";
 
       $imagen = "img_items/" . $img_it;
@@ -125,7 +123,7 @@
   <div class="paginacion">
     <?php
     // Calcular el número total de páginas
-
+    
     // Mostrar enlaces de página previa si no estamos en la primera página
     if ($pagina_actual > 1) {
       echo '<a href="a_lisgeneral.php?xgl=' . $xgl . '&bxproducto=' . $bxproducto . '&pagina=' . ($pagina_actual - 1) . '">Anterior</a>';
@@ -141,7 +139,7 @@
       echo '<a href="a_lisgeneral.php?xgl=' . $xgl . '&bxproducto=' . $bxproducto . '&pagina=' . ($pagina_actual + 1) . '">Siguiente</a>';
     }
     ?>
-</div>
+  </div>
 
 </body>
 
