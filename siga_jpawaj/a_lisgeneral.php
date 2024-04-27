@@ -106,6 +106,8 @@
     ?>
   </div>
 
+  <?php echo "Total de páginas: " . $total_paginas;?>
+
   <div class="paginacion">
     <?php
     // Calcular el número total de páginas
