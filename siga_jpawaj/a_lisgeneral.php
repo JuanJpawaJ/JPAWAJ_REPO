@@ -7,9 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="stylesheet" href="../assets/css/estilos_generales.css">
-  <link rel="stylesheet" href="../assets/css/estilos_index/estilos_bloques_marcas/estilos_contenedor_ofertas_semana.css">
+  <link rel="stylesheet"
+    href="../assets/css/estilos_index/estilos_bloques_marcas/estilos_contenedor_ofertas_semana.css">
   <link rel="stylesheet" href="../assets/css/estilos_carta_producto.css">
   <link rel="stylesheet" href="../assets/css/estilos_buscador_productos.css">
 
@@ -50,11 +52,10 @@
 
 
   <?php
-  
-  // Número máximo de registros por página
-  $max_registros = 40;
-  // Página actual (inicialmente 1 si no se especifica)
-  $pagina_actual = isset($_GET['pagina']) ? $_GET['pagina'] : 1;
+
+
+  $max_registros = 40; // Número máximo de registros por página
+  $pagina_actual = isset($_GET['pagina']) ? $_GET['pagina'] : 1; // Página actual (inicialmente 1 si no se especifica)
   // Calcular el índice de inicio para la consulta LIMIT
   $indice_inicio = ($pagina_actual - 1) * $max_registros;
 
@@ -65,7 +66,6 @@
     $query = "SELECT * FROM a_items WHERE producto_it LIKE '%$bxproducto1%' ORDER BY producto_it LIMIT $indice_inicio, $max_registros";
   }
 
-  //$result=mysql_query("select * from a_items",$connec);
   $result = mysqli_query($connec, $query);
   $total = mysqli_num_rows($result);
 
@@ -80,15 +80,15 @@
     while ($tabla = mysqli_fetch_array($result)) {
 
       $id = $tabla["id"];
+      $img_it = $tabla["img_it"];
+      $producto_it = $tabla["producto_it"];
+      $pv01_it = $tabla["pv01_it"];
       // $codigo_it = $tabla["codigo_it"];
       // $codfabrica_it = $tabla["codfabrica_it"];
-      $img_it = $tabla["img_it"];
       // $grupolista_it = $tabla["grupolista_it"];
-      $producto_it = $tabla["producto_it"];
       // $marka_it = $tabla["marka_it"];
       // $fabricante_it = $tabla["fabricante_it"];
       // $precom_it = $tabla["precom_it"];
-      $pv01_it = $tabla["pv01_it"];
       // $util01 = $pv01_it - $precom_it;
       // $pv02_it = $tabla["pv02_it"];
       // $pv03_it = $tabla["pv03_it"];
@@ -105,31 +105,23 @@
     ?>
   </div>
 
-  <?php
-  $total_paginas = ceil($total_registros_t / $max_registros);
-  ?>
-
-  <?php 
-  // echo "Total de páginas: " . $total_paginas;
-  // echo "Total de registros: " . $total;
-  ?>
-
   <div class="paginacion">
     <?php
-    // Calcular el número total de páginas
+
+    $total_paginas = ceil($total_registros_t / $max_registros);
+
+    // echo "Total de páginas: " . $total_paginas;
+    // echo "Total de registros: " . $total;
     
-    // Mostrar enlaces de página previa si no estamos en la primera página
-    if ($pagina_actual > 1) {
+    if ($pagina_actual > 1) { // Mostrar enlaces de página previa si no estamos en la primera página
       echo '<a href="a_lisgeneral.php?xgl=' . $xgl . '&bxproducto=' . $bxproducto . '&pagina=' . ($pagina_actual - 1) . '">Anterior</a>';
     }
 
-    // Mostrar números de página
-    for ($i = 1; $i <= $total_paginas; $i++) {
+    for ($i = 1; $i <= $total_paginas; $i++) {  // Mostrar números de página
       echo '<a href="a_lisgeneral.php?xgl=' . $xgl . '&bxproducto=' . $bxproducto . '&pagina=' . $i . '">' . $i . '</a>';
     }
 
-    // Mostrar enlaces de página siguiente si no estamos en la última página
-    if ($pagina_actual < $total_paginas) {
+    if ($pagina_actual < $total_paginas) { // Mostrar enlaces de página siguiente si no estamos en la última página
       echo '<a href="a_lisgeneral.php?xgl=' . $xgl . '&bxproducto=' . $bxproducto . '&pagina=' . ($pagina_actual + 1) . '">Siguiente</a>';
     }
     ?>
