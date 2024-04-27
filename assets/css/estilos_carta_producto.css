@@ -81,11 +81,11 @@
 
         overflow: hidden;
         display: -webkit-box;
-        -webkit-line-clamp: 4;
+        -webkit-line-clamp: 3;
         /* Limita a 4 líneas */
         -webkit-box-orient: vertical;
 
-        min-height: 69px;
+        min-height: 54px;
         /*ESTO NO ES LO MÁS ÓPTIMO PERO FUNCIONA*/
     }
 
