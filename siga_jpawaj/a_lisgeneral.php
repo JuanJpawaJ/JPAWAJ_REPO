@@ -106,7 +106,9 @@
     ?>
   </div>
 
-  <?php echo "Total de páginas: " . $total_paginas;?>
+  <?php echo "Total de páginas: " . $total_paginas;
+  echo "Total de registros: " . $total;
+  ?>
 
   <div class="paginacion">
     <?php
