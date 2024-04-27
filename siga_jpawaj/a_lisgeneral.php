@@ -66,6 +66,9 @@
   //$result=mysql_query("select * from a_items",$connec);
   $total = mysqli_num_rows($result);
 
+  ?>
+  <div class="grid_lista_productos">
+  <?php
   while ($tabla = mysqli_fetch_array($result)) {
 
     $id = $tabla["id"];
@@ -87,8 +90,11 @@
     $imagen = "img_items/" . $img_it;
     $nombre_producto = $producto_it;
     $precio = $simbolo_mone . money_format('%n', ($pv01_it));
-    include '../widgets/carta_producto.php';
-
+    
+     include '../widgets/carta_producto.php';
+?>
+</div>
+<?
   }
 ?>
 
