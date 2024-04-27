@@ -112,8 +112,12 @@
             <td align="right" bgcolor=#FFFF66>
               <?php echo ($simbolo_mone . money_format('%n', ($pv01_it))) ?>
             </td>
-            pppp
-            <?php include '../widgets/carta_producto.php' ?>
+            <?php 
+              $imagen = "img_items/" . $img_it;
+              $nombre_producto = $producto_it;
+              $precio = $simbolo_mone . money_format('%n', ($pv01_it));
+              include '../widgets/carta_producto.php' ;
+            ?>
           </tr>
         <?php
         }
