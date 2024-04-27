@@ -1,10 +1,22 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>LP - CLIENTES</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../assets/css/estilos_generales.css">
+    <link rel="stylesheet"
+        href="../assets/css/estilos_index/estilos_bloques_marcas/estilos_contenedor_ofertas_semana.css">
+    <link rel="stylesheet" href="../assets/css/estilos_carta_producto.css">
+    <link rel="stylesheet" href="../assets/css/estilos_buscador_productos.css">
 
 </head>
+
 
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
   <?php
@@ -15,7 +27,7 @@
 
   $bxproducto = $_GET['bxproducto'];
   // ********  ADICIONA, MODIFICA, ELIMINA REGISTROS 
-  $viewmodi = $_GET['viewmodi'];
+  // $viewmodi = $_GET['viewmodi'];
   $xgl = $_GET['xgl'];
   ?>
 
@@ -32,8 +44,9 @@
           <input name="bxproducto" type="text" id="bxproducto" size="25" maxlength="60" />
         </td>
 
-        <td width="128" bgcolor="#FFCC66"><input name="Submit3" type="submit" class="Estilo38"
-            value="Buscar" /></td>
+        <td width="128" bgcolor="#FFCC66">
+          <input name="Submit3" type="submit" class="Estilo38" value="Buscar" />
+        </td>
       </tr>
     </table>
   </form>
