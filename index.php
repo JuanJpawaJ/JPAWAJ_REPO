@@ -81,7 +81,7 @@ setlocale(LC_ALL, "sp");
         <img src="assets/img/imagenes_index/logo_syscomputer.png" alt="">
         <div class="contenedor_ofertas_semana">
             <div class="header_ofertas">
-                <h2>OFERTAS DE LA SEMANA</h2>
+                <h2>OFERTAS DE LA SEMANA*</h2>
                 <span class="material-symbols-outlined">
                     timer
                 </span>
