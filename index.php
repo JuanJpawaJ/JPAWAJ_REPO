@@ -39,34 +39,30 @@ setlocale(LC_ALL, "sp");
         <div class="slider-wrapper">
             <div class="slider">
                 <div class="imagen" id="slide-1">
-                    <img class="imagen_normal" src="assets/img/imagenes_index/Medidas_proporciones/Proporciones_Imaenes_Slider/proporcion_3_10_imagen_1.png" alt="">
-                    <img class="imagen_movil" src="assets/img/imagenes_index/Medidas_proporciones/Proporciones_Imaenes_Slider/proporcion_3_5_imagen_1.png" alt="">
+                    <img class="imagen_normal" src="assets/img/imagenes_index/imgslider/sliderg1.jpg" alt="">
+                    <img class="imagen_movil" src="assets/img/imagenes_index/imgslider/sliderp1.jpg" alt="">
                 </div>
 
                 <div class="imagen" id="slide-2">
-                    <img class="imagen_normal" src="assets/img/imagenes_index/Medidas_proporciones/Proporciones_Imaenes_Slider/proporcion_3_10_imagen_2.png" alt="">
-                    <img class="imagen_movil" src="assets/img/imagenes_index/Medidas_proporciones/Proporciones_Imaenes_Slider/proporcion_3_5_imagen_2.png" alt="">
+                    <img class="imagen_normal" src="assets/img/imagenes_index/imgslider/sliderg2.jpg" alt="">
+                    <img class="imagen_movil" src="assets/img/imagenes_index/imgslider/sliderp2.jpg" alt="">
                 </div>
 
                 <div class="imagen" id="slide-3">
-                    <img class="imagen_normal" src="assets/img/imagenes_index/Medidas_proporciones/Proporciones_Imaenes_Slider/proporcion_3_10_imagen_3.png" alt="">
-                    <img class="imagen_movil" src="assets/img/imagenes_index/Medidas_proporciones/Proporciones_Imaenes_Slider/proporcion_3_5_imagen_3.png" alt="">
+                    <img class="imagen_normal" src="assets/img/imagenes_index/imgslider/sliderg3.jpg" alt="">
+                    <img class="imagen_movil" src="assets/img/imagenes_index/imgslider/sliderp3.jpg" alt="">
                 </div>
 
                 <div class="imagen" id="slide-4">
-                    <img class="imagen_normal" src="assets/img/imagenes_index/Medidas_proporciones/Proporciones_Imaenes_Slider/proporcion_3_10_imagen_4.png" alt="">
-                    <img class="imagen_movil" src="assets/img/imagenes_index/Medidas_proporciones/Proporciones_Imaenes_Slider/proporcion_3_5_imagen_4.png" alt="">
+                    <img class="imagen_normal" src="assets/img/imagenes_index/imgslider/sliderg4.jpg" alt="">
+                    <img class="imagen_movil" src="assets/img/imagenes_index/imgslider/sliderp4.jpg" alt="">
                 </div>
 
                 <div class="imagen" id="slide-5">
-                    <img class="imagen_normal" src="assets/img/imagenes_index/Medidas_proporciones/Proporciones_Imaenes_Slider/proporcion_3_10_imagen_5.png" alt="">
-                    <img class="imagen_movil" src="assets/img/imagenes_index/Medidas_proporciones/Proporciones_Imaenes_Slider/proporcion_3_5_imagen_5.png" alt="">
+                    <img class="imagen_normal" src="assets/img/imagenes_index/imgslider/sliderg5.jpg" alt="">
+                    <img class="imagen_movil" src="assets/img/imagenes_index/imgslider/sliderp5.jpg" alt="">
                 </div>
 
-                <div class="imagen" id="slide-6">
-                    <img class="imagen_normal" src="assets/img/imagenes_index/Medidas_proporciones/Proporciones_Imaenes_Slider/proporcion_3_10_imagen_6.png" alt="">
-                    <img class="imagen_movil" src="assets/img/imagenes_index/Medidas_proporciones/Proporciones_Imaenes_Slider/proporcion_3_5_imagen_6.png" alt="">
-                </div>
 
 
             </div>
