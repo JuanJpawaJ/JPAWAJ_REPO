@@ -87,10 +87,10 @@ setlocale(LC_ALL, "sp");
                 </span>
             </div>
 
-            <a href="#" class="header_ofertas">
+            <a href="siga_jpawaj/a_lisgeneral.php" class="header_ofertas">
                 Ver todos los productos
             </a>
-            
+
             <div class="contenedor_productos">
 
                 <?php while ($tabla = mysqli_fetch_array($result)) { ?>
