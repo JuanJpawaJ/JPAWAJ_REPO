@@ -88,7 +88,7 @@ setlocale(LC_ALL, "sp");
             </div>
 
             <a href="siga_jpawaj/a_lisgeneral.php" class="header_ofertas">
-                Ver todos los productos NNN
+                Ver todos los productos 
             </a>
 
             <div class="contenedor_productos">
