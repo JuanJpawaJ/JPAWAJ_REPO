@@ -86,6 +86,11 @@ setlocale(LC_ALL, "sp");
                     timer
                 </span>
             </div>
+
+            <a href="#" class="header_ofertas">
+                Ver todos los productos
+            </a>
+            
             <div class="contenedor_productos">
 
                 <?php while ($tabla = mysqli_fetch_array($result)) { ?>
