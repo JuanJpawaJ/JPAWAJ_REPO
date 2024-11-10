@@ -11,7 +11,7 @@
 
         <div class="cont_lista_elementos" id="cont_elementos_navegador">
             <ul>
-                <li><a href="<?php echo $agregado_en_cab?>#jpawaj"><img src="<?php echo $agregado_en_cab?>assets/img/imagenes_index/logo_jpawaj_blanco.png" alt=""></a></li>
+                <li><a href="<?php echo $agregado_en_cab?>#jpawaj"><img src="<?php echo $agregado_en_cab?>assets/img/imagenes_index/logo_JPAWAJ_blanco.png" alt=""></a></li>
                 <li><a href="<?php echo $agregado_en_cab?>#syscomputer"><img src="<?php echo $agregado_en_cab?>assets/img/imagenes_index/logo_syscomputer_blanco.png" alt=""></a></li>
                 <li><a href="<?php echo $agregado_en_cab?>http://mujerbonita.com.pe"><img src="<?php echo $agregado_en_cab?>assets/img/imagenes_index/logo_mujer_bonita_blanco.png"alt=""></a></li>
                 <li><a href="<?php echo $agregado_en_cab?>https://www.pormizona.com.pe"><img src="<?php echo $agregado_en_cab?>assets/img/imagenes_index/logo_pormizona_blanco.png" alt=""></a></li>
