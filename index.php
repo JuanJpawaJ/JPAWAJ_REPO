@@ -78,7 +78,7 @@ setlocale(LC_ALL, "sp");
 
 
     <div class="bloque_marca bloque_marca_syscomputer" id="syscomputer">
-        <img src="assets/img/imagenes_index/logo_syscomputer.png" alt="">
+        <img src="assets/img/imagenes_index/logo_jpawaj.png" alt="">
         <div class="contenedor_ofertas_semana">
             <div class="header_ofertas">
                 <h2>OFERTAS DE LA SEMANA*</h2>
@@ -139,10 +139,9 @@ setlocale(LC_ALL, "sp");
         </div>
         <div class="contenedor_quienes_somos">
             <h3>¿Quienes somos?</h3>
-            <p>Somos una empresa comercializadora de productos generales y tecnológicos de calidad y garantía. Nuestra
+            <p>Somos una empresa comercializadora de productos tecnológicos de calidad y garantía. Nuestra
                 experiencia data de más de 25 años en el mercado PERUANO, siendo parte del Grupo SYSCOMPUTER. Contamos
-                con una vitrina de productos de seguridad e informática. En esta situación de cuarentena activamos
-                nuestro servicio DELIVERY. Gracias por su confianza y recuerde que trabajamos para usted.</p>
+                con una vitrina de productos de seguridad e informática. Gracias por su confianza y recuerde que trabajamos para usted.</p>
             <div class="contenedor_botones_de_contacto">
                 <a href="https://wa.me/+51959956000" target="_blank">
                     <p>Escribir por Whatsapp</p>
