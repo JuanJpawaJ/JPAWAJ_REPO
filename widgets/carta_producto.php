@@ -5,6 +5,7 @@
         $texto_oferta = "<p>OFERTA</p>";
         $precio_antiguo = "<p class='precio_antiguo'>{$precio}</p>";
         $precio = $precio_oferta;
+        echo "<script>console.log('SI');</script>";
         
     } else {
         $clase_oferta = '';
