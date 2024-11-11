@@ -63,4 +63,7 @@
         <img src="<?php echo $agregado_en?>assets/img/imagenes_index/logo_JPAWAJ_blanco.png" alt="">
         <p>Arequipa - Peru - 2024</p>
     </div>
+    <div>
+        Desarrollador: Juan Diego Valdivia Mendoza
+    </div>
 </div>
