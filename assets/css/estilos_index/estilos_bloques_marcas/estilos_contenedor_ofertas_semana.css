@@ -51,8 +51,15 @@
     
 }
 
+.contenedor_ofertas_semana > .cabecera {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+}
 
-    .contenedor_ofertas_semana > .header_ofertas{
+
+    .contenedor_ofertas_semana > .cabecera > .header_ofertas{
         display: flex;
         color:var(--color_general);
         align-items: center;
@@ -60,22 +67,28 @@
         padding:0.5rem 1.5rem;
         border-radius: 10rem;
         max-width: 30rem;
-        margin-bottom: 1rem;
         align-self: center;
     }
 
-    .contenedor_ofertas_semana > .header_ofertas > h2{
+    .contenedor_ofertas_semana > .cabecera > .header_ofertas > h2{
         font-family: var(--fuente_gruesa);
         margin-right: 1rem;
         font-size: var(--fuente_tamanio_titulo_1);
         
     }
 
-    .contenedor_ofertas_semana > .header_ofertas > span{
+    .contenedor_ofertas_semana > .cabecera > .header_ofertas > span{
         font-weight: 1000;
         font-size: 2rem;
         position: relative;
         bottom:2px;
+    }
+
+    .contenedor_ofertas_semana > .cabecera > .link_productos{
+        color:white;
+        padding: 0.5rem;
+        background-color: var(--color_azul_oscuro_0);
+        border-radius: 1rem;
     }
 
 .contenedor_productos{
@@ -168,6 +181,15 @@
 @media only screen and (max-width: 1000px){
 .contenedor_ofertas_semana{
     width:95%;
+}
+
+.contenedor_ofertas_semana > .cabecera {
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.link_productos_oculto{
+    display: none;
 }
 }
 

@@ -80,6 +80,12 @@ setlocale(LC_ALL, "sp");
     <div class="bloque_marca bloque_marca_syscomputer" id="jpawaj">
         <img src="assets/img/imagenes_index/logo_jpawaj.png" alt="">
         <div class="contenedor_ofertas_semana">
+
+        <div class="cabecera">
+            <a href="siga_jpawaj/a_lisgeneral.php" class="link_productos link_productos_oculto" style="visibility: hidden;">
+                Ver todos los productos 
+            </a> 
+
             <div class="header_ofertas">
                 <h2>OFERTAS DE LA SEMANA*</h2>
                 <span class="material-symbols-outlined">
@@ -87,9 +93,10 @@ setlocale(LC_ALL, "sp");
                 </span>
             </div>
 
-            <a href="siga_jpawaj/a_lisgeneral.php" class="header_ofertas">
+            <a href="siga_jpawaj/a_lisgeneral.php" class="link_productos">
                 Ver todos los productos 
-            </a>
+            </a>    
+        </div>
 
             <div class="contenedor_productos">
 
