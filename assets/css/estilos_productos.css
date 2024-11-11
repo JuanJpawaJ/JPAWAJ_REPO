@@ -7,6 +7,7 @@ body{
 .container_t{
     display: grid;
     grid-template-columns: 1fr 5px 1fr;
+    margin: 2rem 0;
 }
 
     .container_t > .contenedor_imagen_m > .img{
