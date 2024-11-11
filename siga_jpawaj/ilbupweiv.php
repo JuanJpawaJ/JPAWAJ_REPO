@@ -272,7 +272,6 @@
                   <td height="27">&nbsp;</td>
                   <td colspan="2">&nbsp;</td>
                 </tr>
-                <? php// } ?>
               </table>
             </td>
             <td width="477" align="center" valign="top">
