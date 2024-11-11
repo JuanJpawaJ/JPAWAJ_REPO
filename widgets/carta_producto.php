@@ -1,6 +1,6 @@
 <!-- <link rel="stylesheet" href="../assets/css/estilos_carta_producto.css"> -->
 <?php
-    if ($view_03 === 'S') {
+    if ($view_03) {
         $clase_oferta = 'carta_producto_oferta';
         $texto_oferta = "<p>OFERTA</p>";
         $precio_antiguo = "<p class='precio_antiguo'>{$precio}</p>";
