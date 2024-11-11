@@ -18,8 +18,7 @@
 <body>
   <?php
     $agregado_en_cab = "../";
-    include 'widgets/navegador.php';
-    echo "hola inicio"
+    include '../widgets/navegador.php';
   ?>
 
 
@@ -46,8 +45,7 @@
 
   <?php
     $agregado_en = "../";
-    include 'widgets/footer.php';
-    echo "chao final"
+    include '../widgets/footer.php';
   ?>
 </body>
 
