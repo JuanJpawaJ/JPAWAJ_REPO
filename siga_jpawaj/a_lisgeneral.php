@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="../assets/css/estilos_buscador_productos.css">
 
   <link rel="stylesheet" href="../assets/css/estilos_carta_producto.css">
-  <link rel="icon" href="assets/img/imagenes_index/icono_pestana/icono_jpawaj.png" type="image/png">
+  <link rel="icon" href="../assets/img/imagenes_index/icono_pestana/icono_jpawaj.png" type="image/png">
 </head>
 
 <body>

@@ -63,7 +63,7 @@
 }
 
 </style>
-<link rel="icon" href="assets/img/imagenes_index/icono_pestana/icono_jpawaj.png" type="image/png">
+<link rel="icon" href="../assets/img/imagenes_index/icono_pestana/icono_jpawaj.png" type="image/png">
 </head>
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" class="PRECIOFERTA">
 <table width="915" border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#cccccc">
