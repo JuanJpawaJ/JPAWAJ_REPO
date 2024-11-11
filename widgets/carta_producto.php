@@ -11,6 +11,7 @@
         $clase_oferta = '';
         $texto_oferta = "";
         $precio_antiguo = "";
+        echo "<script>console.log('NO');</script>";
     }
     
 ?>
