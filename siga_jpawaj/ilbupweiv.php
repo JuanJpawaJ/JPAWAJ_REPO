@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>View_producto</title>
+<title>Ver producto</title>
 
 <style type="text/css">
 .PRECIO1 {
@@ -63,6 +63,7 @@
 }
 
 </style>
+<link rel="icon" href="assets/img/imagenes_index/icono_pestana/icono_jpawaj.png" type="image/png">
 </head>
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" class="PRECIOFERTA">
 <table width="915" border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#cccccc">
