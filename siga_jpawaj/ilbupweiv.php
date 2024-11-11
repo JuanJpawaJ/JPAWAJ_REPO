@@ -299,7 +299,27 @@
 
   <p>&nbsp;</p>
 
-  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "<?php echo  $producto_it; ?>",
+    "image": "https://www.jpawaj.com/siga_jpawaj/<?php echo "img_items/" . $img_it ?>",
+    "description": "<?php echo  $msjpublico_it; ?>",
+    "brand": {
+      "@type": "Brand",
+      "name": "<?php echo  $marka_it; ?>"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.jpawaj.com/siga_jpawaj/?idx=<?php echo $id ?>", <!-- Cambia esta URL por el enlace directo a la página del producto -->
+      "priceCurrency": "PEN",
+      "price": "<?php $pv01_it ?>",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+  </script>
 </body>
 
 </html>
