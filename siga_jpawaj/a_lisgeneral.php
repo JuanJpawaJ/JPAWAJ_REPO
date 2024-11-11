@@ -89,7 +89,10 @@
       $imagen = "img_items/" . $img_it;
       $nombre_producto = $producto_it;
       $precio = $simbolo_mone . money_format('%n', ($pv01_it));
+      $precio_oferta = $simbolo_mone . money_format('%n', ($pv03_it));
       $enlace = "ilbupweiv.php?idx=" . $id;
+
+      $view03 = $tabla["view03_it"];
 
       include '../widgets/carta_producto.php';
     }
