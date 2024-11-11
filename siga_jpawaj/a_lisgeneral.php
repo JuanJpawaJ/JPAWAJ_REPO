@@ -94,6 +94,21 @@
 
       $view03 = $tabla["view03_it"];
 
+      if ($view_03) {
+        $clase_oferta = 'carta_producto_oferta';
+        $texto_oferta = "<p>OFERTA</p>";
+        $precio_antiguo = "<p class='precio_antiguo'>{$precio}</p>";
+        $precio = $precio_oferta;
+        echo "<script>console.log('SI');</script>";
+        
+      } else {
+          $clase_oferta = '';
+          $texto_oferta = "";
+          $precio_antiguo = "";
+          echo "<script>console.log('NO');</script>";
+      }
+
+
       include '../widgets/carta_producto.php';
     }
     ?>
