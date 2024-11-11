@@ -18,7 +18,7 @@
 <body>
   <?php
     $agregado_en_cab = "../";
-    include 'widgets/navegador.php'
+    include 'widgets/navegador.php';
   ?>
 
 
@@ -45,7 +45,7 @@
 
   <?php
     $agregado_en = "../";
-    include 'widgets/footer.php'
+    include 'widgets/footer.php';
   ?>
 </body>
 
