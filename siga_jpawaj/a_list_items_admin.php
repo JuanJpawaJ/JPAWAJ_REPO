@@ -211,7 +211,7 @@ if ($xdelreg=="SIDELREG") {
   <tr class="tit_menu_sup">
     <td height="262" colspan="2" rowspan="4" valign="top" bgcolor="#FFFFCC">
     <!-- INICIO DE MUESTRA ITEMS -->
-    <table width="987" height="80" border="1" cellspacing="0">
+    <table width="1059" height="80" border="1" cellspacing="0">
       <tr bgcolor="#CCFFFF" class="diez">
         <td width="48" align="center">COD. Item</td>
         <td width="93">IMAGEN</td>
@@ -224,6 +224,8 @@ if ($xdelreg=="SIDELREG") {
         <td width="44">P.VEN 02</td>
         <td width="59">P.VEN 03</td>
         <td width="32">VIEW01</td>
+        <td width="32">VIEW02</td>
+        <td width="32">VIEW03</td>
         <td width="32">MOD</td>
         <td width="59" align="center">Mod. IMG</td>
         <td width="57" align="center">DEL Reg.</td>
@@ -270,6 +272,8 @@ while ($tabla=mysqli_fetch_array($result)){
 		$pv02_it=$tabla["pv02_it"];
 		$pv03_it=$tabla["pv03_it"];
 		$view01_it=$tabla["view01_it"];
+		$view02_it=$tabla["view02_it"];
+		$view03_it=$tabla["view03_it"];
 		
 		if ($pv01_it<=$precom_it) { $color1="#FF0000";  } else {  $color1="#E4E4E4";  }
 		if ($pv02_it<=$precom_it) { $color2="#FF0000";  } else {  $color2="#E4E4E4";  }
@@ -301,6 +305,8 @@ while ($tabla=mysqli_fetch_array($result)){
         <td align="right" bgcolor=<? echo($color2) ?> ><?php echo($simbolo_mone.money_format('%n',($pv02_it))) ?></td>
         <td align="right" bgcolor=<? echo($color3) ?> ><?php echo($simbolo_mone.money_format('%n',($pv03_it))) ?></td>
         <td><?php echo($view01_it) ?></td>
+        <td><?php echo($view02_it) ?></td>
+        <td><?php echo($view03_it) ?></td>
         <td><a href="n_admin_3view.php?idx=<?php  echo($id); ?>&xview=<?php  echo("ADMIN"); ?>&xareg=NNOOO&xmodi=NOOOOO&xdelreg=NOOOOO"><img src="iconos/ico_editar.png" width="30" height="30"></a></td>
         <td bgcolor="#FFCC66" align="center"><a href="img_items/n_subir_xfile.php?id_img=<?php  echo($id); ?>"><img src="iconos/ico_imagen.png" width="30" height="30"></a></td>
 
