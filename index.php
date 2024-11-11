@@ -72,12 +72,12 @@ setlocale(LC_ALL, "sp");
         </div>
     </div>
 
-
+<!-------   **********   JPAWAJ *********************  --->
     <? $result = mysqli_query($connec, "select * from a_items where view03_it='S' AND grupolista_it like '%S%' order by producto_it");
     $simbolo_mone = "S/ "; ?>
 
 
-    <div class="bloque_marca bloque_marca_syscomputer" id="syscomputer">
+    <div class="bloque_marca bloque_marca_syscomputer" id="jpawaj">
         <img src="assets/img/imagenes_index/logo_jpawaj.png" alt="">
         <div class="contenedor_ofertas_semana">
             <div class="header_ofertas">
@@ -119,29 +119,63 @@ setlocale(LC_ALL, "sp");
 
             </div>
         </div>
-        <div class="contenedor_imagenes_grid grid_syscomputer">
-            <div class="imagen_1">
-                <img src="assets/img/imagenes_index/Medidas_proporciones/proporcion_4_mas_10px_3.png" alt="">
+        <div class="contenedor_quienes_somos">
+            <h3>¿Quienes somos?</h3>
+            <p>Somos una empresa comercializadora de productos INFORMÁTICOS y TECNOLÓGICOS de calidad y garantía.
+             Nuestra experiencia data de más de 25 años en el mercado PERUANO, siendo parte del Grupo SYSCOMPUTER.
+              Contamos con una vitrina de productos de seguridad e informática.
+               Gracias por su confianza y recuerde que trabajamos para usted.</p>
+            <div class="contenedor_botones_de_contacto">
+                <a href="https://wa.me/+51959956000" target="_blank">
+                    <p>Escribir por Whatsapp</p>
+                    <img src="assets/img/imagenes_index/logo_whatsapp_blanco.png" alt="">
+                </a>
+
+                <a href="tel:+51959956000">
+                    <p>Llamar por teléfono</p>
+                    <img src="assets/img/imagenes_index/logo_llamada_negro.png" alt="">
+                </a>
             </div>
-            <div class="imagen_2">
-                <img src="assets/img/imagenes_index/Medidas_proporciones/proporcion_2_5.png" alt="">
+        </div>
+    </div>
+
+    <div class="division_secciones"></div>
+
+<!-------   **********   SYSCOMPUTER (SERVICIO TECNICO *********************  --->
+
+
+    <div class="bloque_marca bloque_marca_syscomputer" id="syscomputer">
+        <img src="assets/img/imagenes_index/logo_syscomputer.png" alt="">
+        <div class="contenedor_ofertas_semana">
+            <div class="header_ofertas">
+                <h2>SERVICIO TÉCNICO</h2>
+                <span class="material-symbols-outlined">
+                    timer
+                </span>
             </div>
-            <div class="imagen_3">
-                <img src="assets/img/imagenes_index/Medidas_proporciones/proporcion_2_5.png" alt="">
+
+
+        </div>
+        <div class="contenedor_imagenes_grid grid_mujer_bonita">
+            <div class="imagen_6">
+                <img src="assets/img/imagenes_index/Medidas_proporciones/proporcion_3_5.png" alt="">
             </div>
-            <div class="imagen_4">
-                <img src="assets/img/imagenes_index/Medidas_proporciones/proporcion_2_4.png" alt="">
+            <div class="imagen_7">
+                <img src="assets/img/imagenes_index/Medidas_proporciones/proporcion_3_5.png" alt="">
             </div>
-            <div class="imagen_5">
-                <img src="assets/img/imagenes_index/Medidas_proporciones/proporcion_2_4.png" alt="">
+            <div class="imagen_8">
+                <img src="assets/img/imagenes_index/Medidas_proporciones/proporcion_6_3.png" alt="">
             </div>
 
         </div>
+
+        
         <div class="contenedor_quienes_somos">
             <h3>¿Quienes somos?</h3>
-            <p>Somos una empresa comercializadora de productos tecnológicos de calidad y garantía. Nuestra
-                experiencia data de más de 25 años en el mercado PERUANO, siendo parte del Grupo SYSCOMPUTER. Contamos
-                con una vitrina de productos de seguridad e informática. Gracias por su confianza y recuerde que trabajamos para usted.</p>
+            <p>Somos una empresa de SERVICIO TÉCNICO PROFESIONAL en INFORMÁTICA. 
+            Nuestra experiencia data de más de 25 años en el mercado PERUANO, siendo parte del Grupo SYSCOMPUTER.
+              Nuestro departamento de SERVICIO TÉCNICO con más de 10 profesionales especialistas en HARDWARE y SOFTWARE.
+               Gracias por su confianza y recuerde que trabajamos para usted.</p>
             <div class="contenedor_botones_de_contacto">
                 <a href="https://wa.me/+51959956000" target="_blank">
                     <p>Escribir por Whatsapp</p>
@@ -159,7 +193,10 @@ setlocale(LC_ALL, "sp");
     <div class="division_secciones"></div>
 
 
-    <? $result = mysqli_query($connec, "select * from a_items where view03_it='S' AND grupolista_it like '%M%' order by producto_it");
+
+<!-------   **********   ??????? *********************  --->
+
+    <? $result = mysqli_query($connec, "select * from a_items where view02_it='S' AND grupolista_it like '%M%' order by producto_it");
     $simbolo_mone = "S/ "; ?>
 
     <div class="bloque_marca bloque_marca_mujer_bonita" id="mujer_bonita">
