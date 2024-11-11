@@ -3,18 +3,18 @@ body{
     justify-content: center;
 }
 
-.container{
+.container_t{
     display: grid;
     grid-template-columns: 1fr 5px 1fr;
 }
 
-    .container > .contenedor_imagen > .img{
+    .container_t > .contenedor_imagen > .img{
         background-color: black;
         width:450px;
         aspect-ratio: 1 / 1;
     }
 
-    .container > .separador{
+    .container_t > .separador{
         background-color: black;
     }
 
@@ -22,7 +22,7 @@ body{
 
 
 
-.container{
+.container_t{
     /*background-color: yellow;*/
     column-gap: 1rem;
     width: 80%;
@@ -108,7 +108,7 @@ h1{
 
 @media only screen and (max-width: 1000px){
 
-    .container{
+    .container_t{
         grid-template-columns: 1fr;
         background-color: yellow;
         width: 80%;
@@ -122,7 +122,7 @@ h1{
         ;
     }
 
-    .container > .contenedor_imagen{
+    .container_t > .contenedor_imagen{
         width: 100%;
         margin-bottom: 1rem;
         display: flex;
@@ -130,7 +130,7 @@ h1{
         align-items: center;
     }
 
-    .container > .contenedor_imagen > .img{
+    .container_t > .contenedor_imagen > .img{
         background-color: red;
         width:100%;
         aspect-ratio: 1 / 1;
@@ -143,7 +143,7 @@ h1{
 }
 
 @media only screen and (max-width: 550px){
-    .container{
+    .container_t{
         width: 90%;
     }
 }
