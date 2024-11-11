@@ -134,4 +134,5 @@
     justify-content: center;
     color:rgb(138, 138, 138);
     font-size: var(--fuente_tamanio_titulo_4);
+    width:100%;
 }
