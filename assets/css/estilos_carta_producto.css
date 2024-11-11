@@ -56,6 +56,7 @@
     justify-self: center;
 
     box-shadow: 1px 2px 16px -3px rgba(0,0,0,0.75);
+    position: relative;
 }
 
     .carta_producto>div.contenedor_imagen {
@@ -117,6 +118,16 @@
         background-color: var(--color_general);
     }
 
+
+.carta_producto_oferta > p:last-of-type{
+    position: absolute;
+    top:0;
+    right:0;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 0 0 0 0.5rem ;
+}
 
 @media only screen and (max-width: 1200px) {}
 
