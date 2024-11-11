@@ -154,13 +154,14 @@ setlocale(LC_ALL, "sp");
     <div class="bloque_marca bloque_marca_syscomputer" id="syscomputer">
         <img src="assets/img/imagenes_index/logo_syscomputer.png" alt="">
         <div class="contenedor_ofertas_semana">
+        <div class="cabecera">
             <div class="header_ofertas">
                 <h2>SERVICIO TÉCNICO</h2>
                 <span class="material-symbols-outlined">
                     timer
                 </span>
             </div>
-
+        </div>
 
         </div>
         <div class="contenedor_imagenes_grid grid_mujer_bonita">
@@ -209,12 +210,14 @@ setlocale(LC_ALL, "sp");
     <div class="bloque_marca bloque_marca_mujer_bonita" id="mujer_bonita">
         <img src="assets/img/imagenes_index/logo_mujer_bonita.png" alt="">
         <div class="contenedor_ofertas_semana">
+        <div class="cabecera">
             <div class="header_ofertas">
                 <h2>OFERTAS DE LA SEMANA</h2>
                 <span class="material-symbols-outlined">
                     timer
                 </span>
             </div>
+        </div>
             <div class="contenedor_productos">
                 <?php while ($tabla = mysqli_fetch_array($result)) { ?>
                 <div class="producto">
