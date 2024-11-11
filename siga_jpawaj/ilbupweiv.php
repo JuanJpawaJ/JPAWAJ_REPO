@@ -86,7 +86,13 @@
 </head>
 
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" class="PRECIOFERTA">
-  <table width="915" border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#cccccc">
+  
+<?php
+    $agregado_en_cab = "../";
+    include 'widgets/navegador.php';
+  ?>
+
+<table width="915" border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#cccccc">
     <tr>
       <td height="116" align="center">
         <table width="877" border="0" cellspacing="0" cellpadding="0">
@@ -298,6 +304,11 @@
   </table>
 
   <p>&nbsp;</p>
+
+  <?php
+    $agregado_en = "../";
+    include 'widgets/footer.php';
+  ?>
 
   <script type="application/ld+json">
   {
