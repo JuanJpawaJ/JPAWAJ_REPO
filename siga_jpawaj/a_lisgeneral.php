@@ -84,6 +84,7 @@
       $img_it = $tabla["img_it"];
       $producto_it = $tabla["producto_it"];
       $pv01_it = $tabla["pv01_it"];
+      $pv03_it = $tabla["pv03_it"];
       $simbolo_mone = "S/  ";
 
       $imagen = "img_items/" . $img_it;
