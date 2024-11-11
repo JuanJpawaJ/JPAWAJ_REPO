@@ -43,10 +43,7 @@
     </div>
   </div>
 
-  <?php
-    $agregado_en = "../";
-    include '../widgets/footer.php';
-  ?>
+  
 </body>
 
 </html>
