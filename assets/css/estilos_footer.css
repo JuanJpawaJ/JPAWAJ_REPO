@@ -125,3 +125,12 @@
             margin-left:1rem;
         }
     }
+
+.m_p{
+    box-sizing: border-box;
+    background-color: rgb(31, 31, 31);
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    color:rgb(138, 138, 138);
+}
