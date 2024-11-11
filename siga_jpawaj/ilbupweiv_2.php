@@ -23,7 +23,7 @@
 
 
   <div class="container_t">
-    <div class="contenedor_imagen">
+    <div class="contenedor_imagen_m">
       <div class="img"></div>
       <p>La imagen es referencial*</p>
     </div>

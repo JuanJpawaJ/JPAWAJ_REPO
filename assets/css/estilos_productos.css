@@ -8,7 +8,7 @@ body{
     grid-template-columns: 1fr 5px 1fr;
 }
 
-    .container_t > .contenedor_imagen > .img{
+    .container_t > .contenedor_imagen_m > .img{
         background-color: black;
         width:450px;
         aspect-ratio: 1 / 1;
@@ -39,7 +39,7 @@ body{
 
 
 
-.contenedor_imagen{
+.contenedor_imagen_m{
     grid-area: cont_imagen;
     justify-self: center;
 }
@@ -122,7 +122,7 @@ h1{
         ;
     }
 
-    .container_t > .contenedor_imagen{
+    .container_t > .contenedor_imagen_m{
         width: 100%;
         margin-bottom: 1rem;
         display: flex;
@@ -130,7 +130,7 @@ h1{
         align-items: center;
     }
 
-    .container_t > .contenedor_imagen > .img{
+    .container_t > .contenedor_imagen_m > .img{
         background-color: red;
         width:100%;
         aspect-ratio: 1 / 1;
