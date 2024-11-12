@@ -90,18 +90,6 @@ if (strlen($img_it) == 0) {
       </p>
     <?php } ?>
 
-    <!--
-    <div class="cont_precio">
-      <div class="oferta">
-        <p class="texto_oferta">OFERTA</p>
-        <p class="precio_actual">
-          <?php echo ($simbolo_mone . money_format('%n', ($pv01_it))) ?>
-        </p>
-      </div>
-
-      <p class="antes">Antes <span>S/ 200.00</span></p>
-    </div> -->
-
     <?php if ($pv03_it > 0) { ?>
 
       <div class="cont_precio">
