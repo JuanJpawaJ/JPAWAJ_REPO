@@ -118,7 +118,7 @@ setlocale(LC_ALL, "sp");
                             <?php echo ($simbolo_mone . ($tabla["pv03_it"])) ?>
                         </p>
                     </div>
-                    <a href="<?php echo "ilbupweiv.php?idx=" . $tabla["id"] ?>">
+                    <a href="<?php echo "siga_jpawaj/ilbupweiv.php?idx=" . $tabla["id"] ?>">
                         Ver producto
                     </a>
                 </div>
