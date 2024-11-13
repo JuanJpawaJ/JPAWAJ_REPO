@@ -119,6 +119,29 @@ if (strlen($img_it) == 0) {
   $agregado_en = "../";
   include '../widgets/footer.php';
   ?>
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "<?php echo  $producto_it; ?>",
+      "image": "https://www.jpawaj.com/siga_jpawaj/<?php echo "img_items/" . $img_it ?>",
+      "description": "<?php echo  $msjpublico_it; ?>",
+      "brand": {
+        "@type": "Brand",
+        "name": "<?php echo  $marka_it; ?>"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.jpawaj.com/siga_jpawaj/ilbupweiv.php?idx=<?php echo $id ?>", 
+        "priceCurrency": "PEN",
+        "price": "<?php $pv01_it ?>",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+  </script>
 </body>
 
 </html>
