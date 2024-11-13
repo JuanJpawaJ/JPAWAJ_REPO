@@ -168,6 +168,7 @@ h1{
         "descripcion"
         "codigo"
         "cont_precio"
+        "boto_comprar"
         ;
     }
 
@@ -185,6 +186,11 @@ h1{
 
     .separador{
         display: none;
+    }
+
+    .boton_comprar{
+        justify-self: center;  /* Alinea el enlace al principio de la celda */
+        align-self: start;  
     }
         
 }
