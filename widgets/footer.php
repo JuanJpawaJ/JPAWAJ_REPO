@@ -67,5 +67,5 @@
 </div>
 
 <div class="m_p">
-    Desarrollador: Juan Diego Valdivia Mendoza
+    Desarrollador: Juan D. Valdivia M.
 </div>

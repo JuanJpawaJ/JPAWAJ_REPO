@@ -113,6 +113,12 @@ if (strlen($img_it) == 0) {
       </div>
 
       <?php }?>
+
+      <a href="https://wa.me/51959956000?text=Hola%20deseo%20comprar%20el%20producto%20<?php echo ($producto_it); ?>" target="_blank" class="boton_comprar">
+        <p>Comprar por Whatsapp</p>
+        <img src="../assets/img/imagenes_index/logo_whatsapp_blanco.png" alt="">
+      </a>
+
   </div>
 
   <?php
