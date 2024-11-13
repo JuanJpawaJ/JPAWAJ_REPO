@@ -60,6 +60,7 @@ if (strlen($img_it) == 0) {
 </head>
 
 <body>
+  HOLA
   <?php
   $agregado_en_cab = "../";
   include '../widgets/navegador.php';
