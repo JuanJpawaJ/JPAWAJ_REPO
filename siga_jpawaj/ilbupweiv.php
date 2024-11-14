@@ -134,7 +134,7 @@ if (strlen($img_it) == 0) {
       "@context": "https://schema.org",
       "@type": "Product",
       "name": "<?php echo  $producto_it; ?>",
-      "image": "https://www.jpawaj.com/siga_jpawaj/<?php echo "img_items/" . $img_it ?>",
+      "image": "https://www.jpawaj.com/siga_jpawaj/<?php echo 'img_items/' . $img_it ?>",
       "description": "<?php echo  $msjpublico_it; ?>",
       "brand": {
         "@type": "Brand",
@@ -144,7 +144,7 @@ if (strlen($img_it) == 0) {
         "@type": "Offer",
         "url": "https://www.jpawaj.com/siga_jpawaj/ilbupweiv.php?idx=<?php echo $id ?>", 
         "priceCurrency": "PEN",
-        "price": "<?php echo $precio ?>",
+        "price": <?php echo $precio ?>,
         "itemCondition": "https://schema.org/NewCondition",
         "availability": "https://schema.org/InStock"
       }
