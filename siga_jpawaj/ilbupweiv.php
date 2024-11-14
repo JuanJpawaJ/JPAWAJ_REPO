@@ -146,7 +146,15 @@ if (strlen($img_it) == 0) {
         "priceCurrency": "PEN",
         "price": <?php echo $precio ?>,
         "itemCondition": "https://schema.org/NewCondition",
-        "availability": "https://schema.org/InStock"
+        "availability": "https://schema.org/InStock",
+        "availableAtOrFrom": {
+          "@type": "Place",
+          "name": "Perú",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "PE"
+          }
+        }
       }
     }
   </script>
