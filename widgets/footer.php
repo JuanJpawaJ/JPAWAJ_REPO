@@ -66,6 +66,3 @@
     
 </div>
 
-<div class="m_p">
-    Desarrollador: Juan D. Valdivia M.
-</div>
