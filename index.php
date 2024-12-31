@@ -322,6 +322,7 @@ setlocale(LC_ALL, "sp");
         </div>
     </div>
 
+    <!-------
     <div class="division_secciones mg-bt-none"></div>
 
     <div class="bloque_servicio_tecnico">
@@ -358,6 +359,7 @@ setlocale(LC_ALL, "sp");
             </form>
         </div>
     </div>
+    --->
 
 
     <div class="contenedor_marcas">
