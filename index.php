@@ -150,7 +150,7 @@ setlocale(LC_ALL, "sp");
 
 <!-------   **********   SYSCOMPUTER (SERVICIO TECNICO *********************  --->
 
-
+                    <!-------
     <div class="bloque_marca bloque_marca_syscomputer" id="syscomputer">
         <img src="assets/img/imagenes_index/logo_syscomputer.png" alt="">
         <div class="contenedor_ofertas_semana">
@@ -199,14 +199,15 @@ setlocale(LC_ALL, "sp");
     </div>
 
     <div class="division_secciones"></div>
-
+                    --->
 
 
 <!-------   **********   ??????? *********************  --->
 
-    <? $result = mysqli_query($connec, "select * from a_items where view02_it='S' AND grupolista_it like '%M%' order by producto_it");
-    $simbolo_mone = "S/ "; ?>
+    <?/* $result = mysqli_query($connec, "select * from a_items where view02_it='S' AND grupolista_it like '%M%' order by producto_it");
+    $simbolo_mone = "S/ "; */?>
 
+                    <!-------
     <div class="bloque_marca bloque_marca_mujer_bonita" id="mujer_bonita">
         <img src="assets/img/imagenes_index/logo_mujer_bonita.png" alt="">
         <div class="contenedor_ofertas_semana">
@@ -219,7 +220,7 @@ setlocale(LC_ALL, "sp");
             </div>
         </div>
             <div class="contenedor_productos">
-                <?php while ($tabla = mysqli_fetch_array($result)) { ?>
+                <? /*php while ($tabla = mysqli_fetch_array($result)) { ?>
                 <div class="producto">
                     <div class="contenedor_imagen"><img src="<?php echo " siga_jpawaj/img_items/" . $tabla["img_it"];
                             ?>" /></div>
@@ -241,7 +242,7 @@ setlocale(LC_ALL, "sp");
                         Ver producto
                     </a>
                 </div>
-                <?php } ?>
+                <?php } */?>
             </div>
         </div>
         <div class="contenedor_imagenes_grid grid_mujer_bonita">
@@ -277,6 +278,8 @@ setlocale(LC_ALL, "sp");
     </div>
 
     <div class="division_secciones"></div>
+
+    --->
 
     <div class="bloque_marca_interclass" id="interclass">
         <img src="assets/img/imagenes_index/logo_inter_class.png" alt="">
